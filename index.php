@@ -12,6 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Greg Seth Creations</title>
 <link rel="stylesheet" href="default.css" />
+<link rel="shortcut icon" href="img/favicon.png" />
 <script type="text/javascript" src="global.js"></script>
 </head>
 
