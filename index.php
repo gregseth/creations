@@ -64,7 +64,7 @@ $items = $sql->query($queryItems);
 <div id="header">
 	<p><span>Greg-Seth</span> Creations</p>
 	<img id="bglogo" src="img/logo2x.png" alt="Greg Seth Creations" />
-	<div id="langswitcher"><a href="?page=<?=$page?>&l=<?=($_SESSION['l']=='fr_FR') ? 'en_US' : 'fr_FR'?>" title="<?=l10n('View this page in english')?>"><img src="img/<?=($_SESSION['l']=='fr_FR') ? 'en_EN' : 'fr_FR'?>.png" alt="flag" /></a></div>
+	<div id="langswitcher"><a href="?page=<?=$page?>&amp;l=<?=($_SESSION['l']=='fr_FR') ? 'en_US' : 'fr_FR'?>" title="<?=l10n('View this page in english')?>"><img src="img/<?=($_SESSION['l']=='fr_FR') ? 'en_EN' : 'fr_FR'?>.png" alt="flag" /></a></div>
 </div><!--#header-->
 <div id="page">
 	<div id="gallery">
