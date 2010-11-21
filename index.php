@@ -62,10 +62,10 @@
 
 	</div><!--#gllery-->
 	<ul id="tabs">
-		<li><a href="?page=4" class="tab unselected">Widgets</a></li>
-		<li><a href="?page=3" class="tab unselected">Themes</a></li>
-		<li><a href="?page=2" class="tab unselected">Graphics</a></li>
-		<li><a href="?page=1" class="tab selected">Websites</a></li>
+		<li><a href="?page=4" class="tab <?=$page==4?'selected':'unselected'?>">Widgets</a></li>
+		<li><a href="?page=3" class="tab <?=$page==3?'selected':'unselected'?>">Themes</a></li>
+		<li><a href="?page=2" class="tab <?=$page==2?'selected':'unselected'?>">Graphics</a></li>
+		<li><a href="?page=1" class="tab <?=$page==1?'selected':'unselected'?>">Websites</a></li>
 	</ul>
 </div><!--#page-->
 
