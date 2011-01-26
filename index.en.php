@@ -176,7 +176,7 @@ $(function() {
 					<li><span class="label">Version:</span> 2.0</li>
 				</ul>
 								
-				<p>Art gallery of I made for my mother, Catherine Keller. If you have any question or want more informations, you can contact her by mail at: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
+				<p>Art gallery of I made for the artist Catherine Keller. If you have any question or want more informations, you can contact her by mail at: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
 
 			</div>
 			
@@ -249,7 +249,7 @@ $(function() {
 					<li><span class="label">Version:</span> 1.6</li>
 				</ul>
 								
-				<p>The website I mad for my the project of my last year in college, about <a href="http://en.wikipedia.org/wiki/Fractal">fractals</a>.</p>
+				<p>The website I made for my the project of my last year in college, about <a href="http://en.wikipedia.org/wiki/Fractal">fractals</a>.</p>
 			</div>
 			
 			<div id="fractals_detail" class="expand">			
@@ -423,7 +423,7 @@ $(function() {
 			<div id="tse">
 				<h1><a name="tse" class="anchor closed">Logo TSE</a></h1>
 				<ul>
-					<li><span class="label">Created in:</span> 2007</li>
+					<li><span class="label">Année de création:</span> 2007</li>
 					<li><span class="label">Programs used:</span> Adobe Illustrator CS2, Adobe Photoshop CS2</li>
 				</ul>
 								
@@ -440,7 +440,7 @@ $(function() {
 			<div id="abalone">
 				<h1><a name="abalone" class="anchor closed">Abalone</a></h1>
 				<ul>
-					<li><span class="label">Created in:</span> 1998</li>
+					<li><span class="label">Année de création:</span> 1998</li>
 					<li><span class="label">Programs used:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
@@ -457,7 +457,7 @@ $(function() {
 			<div id="ring">
 				<h1><a name="ring" class="anchor closed">One ring to rule them all</a></h1>				
 				<ul>
-					<li><span class="label">Created in:</span> 1998</li>
+					<li><span class="label">Année de création:</span> 1998</li>
 					<li><span class="label">Programs used:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
@@ -488,7 +488,7 @@ $(function() {
 			<div id="itemlist">
 				<h1><a name="item22" class="anchor closed" onclick="expand(22, this.parentNode.offsetTop)">Geoloc Systems</a></h1>
 				<ul>
-					<li><span class="label">Created in:</span> 2006</li>
+					<li><span class="label">Année de création:</span> 2006</li>
 					<li><span class="label">Programs used:</span> Macromedia Dreamweaver 8, Adobe Photoshop CS2</li>
 				</ul>
 								
@@ -507,7 +507,7 @@ $(function() {
 			<div id="itemlist">
 				<h1><a name="item11" class="anchor closed" onclick="expand(11, this.parentNode.offsetTop)">OGame</a></h1>
 				
-				<p>Theme or the <acronym title="Massive Multiplayer Online Role Playing Game">MMORPG</acronym> <a href="http://www.ogame.fr">OGame</a>, based on the <a href="http://www.webdiod.com/">Endless</a> wallpapaer. To use it in he game, use this address: <a href="http://11010101110.free.fr/OGame/revolution/">http://11010101110.free.fr/OGame/revolution/</a>.</p>
+				<p>Theme on the <acronym title="Massive Multiplayer Online Role Playing Game">MMORPG</acronym> <a href="http://www.ogame.fr">OGame</a>, based on the <a href="http://www.webdiod.com/">Endless</a> wallpapaer.</p>
 			</div>
 			
 			<div id="expand11" class="expand">			

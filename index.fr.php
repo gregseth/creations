@@ -16,7 +16,7 @@
 
 <script type="text/javascript" src="animations.js"></script>
 
-</head>
+</head>
 
 <body>
 <?
@@ -73,9 +73,9 @@
 	</div><!--#gllery-->
 	<ul id="tabs">
 		<!--<li><a href="?page=widgets" class="tab <?=$page=='widgets'?'selected':'unselected'?>">Widgets</a></li>-->
-		<li><a href="?page=themes" class="tab <?=$page=='themes'?'selected':'unselected'?>">Themes</a></li>
-		<li><a href="?page=graphics" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Graphics</a></li>
-		<li><a href="?page=websites" class="tab <?=$page=='websites'?'selected':'unselected'?>">Websites</a></li>
+		<li><a href="?page=themes" class="tab <?=$page=='themes'?'selected':'unselected'?>">Thèmes</a></li>
+		<li><a href="?page=graphics" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Design</a></li>
+		<li><a href="?page=websites" class="tab <?=$page=='websites'?'selected':'unselected'?>">Sites</a></li>
 	</ul>
 </div><!--#page-->
 
@@ -89,11 +89,11 @@
 				<h1><a name="ckeller" class="anchor closed">C. Keller</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://encadrement.free.fr">http://encadrement.free.fr</a></li>
-					<li><span class="label">Created in:</span> 2000</li>
+					<li><span class="label">Année de création:</span> 2000</li>
 					<li><span class="label">Version:</span> 2.0</li>
 				</ul>
 								
-				<p>Art gallery of I made for my mother, Catherine Keller. If you have any question or want more informations, you can contact her by mail at: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
+				<p>Galerie créée pour l'artiste Catherine Keller. Pour plus d'inforamtions ou toute question vous pouver la contacter par mail à : <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
 
 			</div>
 			
@@ -108,11 +108,11 @@
 				<h1><a name="gregseth" class="anchor closed">Greg-Seth</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://greg.seth.free.fr">http://greg.seth.free.fr</a></li>
-					<li><span class="label">Created in:</span> 1999</li>
+					<li><span class="label">Année de création:</span> 1999</li>
 					<li><span class="label">Version:</span> 2.5</li>
 				</ul>
 								
-				<p>My first personal website. Currently you can find some pictures of speleology in the <a href="http://www.grotte-aguzou.com/">Aguzou caverns</a> , of my trip in Iceland and few other things...</p>
+				<p>Mon premier site perso. Actuelllement vous y trouverez une galerie de photos des <a href="http://www.grotte-aguzou.com/">grottes de l'Aguzou</a>, de mon voyage en Islande et quelques autres trucs...</p>
 			</div>
 			
 			<div id="gregseth_detail" class="expand">			
@@ -126,11 +126,11 @@
 				<h1><a name="chemicals" class="anchor closed">Chemicals</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://chemicals.free.fr">http://chemicals.free.fr</a></li>
-					<li><span class="label">Created in:</span> 2003</li>
+					<li><span class="label">Année de création:</span> 2003</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 								
-				<p>A summary of my chemistry courses. I really like the periodic table.</p>
+				<p>Un résumé de mes cours de chimie de prépa, dont un classification périodique des éléments interactive.</p>
 			</div>
 			
 			<div id="chemicals_detail" class="expand">			
@@ -144,11 +144,11 @@
 				<h1><a name="donoterase" class="anchor closed">DoNotErase</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://not.any.number.free.fr">http://not.any.number.free.fr</a></li>
-					<li><span class="label">Created in:</span> 2003</li>
+					<li><span class="label">Année de création:</span> 2003</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 								
-				<p>Unfinished project (beta?) about how to build a site according to web standards, for beginners.</p>
+				<p>Projet inachevé (et assez daté) sur les bases de la création d'un site web. HTML, PHP et standards du web sont au rendez-vous.</p>
 			</div>
 			
 			<div id="donoterase_detail" class="expand">			
@@ -162,11 +162,11 @@
 				<h1><a name="fractals" class="anchor closed">Fractals</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://lesfractales.tpe.free.fr">http://lesfractales.tpe.free.fr</a></li>
-					<li><span class="label">Created in:</span> 2006</li>
+					<li><span class="label">Année de création:</span> 2006</li>
 					<li><span class="label">Version:</span> 1.6</li>
 				</ul>
 								
-				<p>The website I mad for my the project of my last year in college, about <a href="http://en.wikipedia.org/wiki/Fractal">fractals</a>.</p>
+				<p>Site sur les <a href="http://en.wikipedia.org/wiki/Fractal">fractales</a>, créé en complément de mon projet de TPE en terminale.</p>
 			</div>
 			
 			<div id="fractals_detail" class="expand">			
@@ -180,11 +180,11 @@
 				<h1><a name="hmdb" class="anchor closed">The Home Movie Database</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <strong>private</strong></li>
-					<li><span class="label">Created in:</span> 2002</li>
+					<li><span class="label">Année de création:</span> 2002</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 								
-				<p>This site allows me to manage my videotheque. It's not open to public, all that I can say is about the technologies used: few drops of PHP an tons of <a href="http://en.wikipedia.org/wiki/Asynchronous_JavaScript_And_XML"><acronym title="Asynchronous JavaScript And XML">Ajax</acronym></a>. Here's a <a href="img/sites/hmdb_big.jpg">screenshot</a>.</p>
+				<p>Site de gestion de ma vidéothèque, fermé au public, une <a href="img/sites/hmdb_big.jpg">capture</a> d'écran est disponible.</p>
 			</div>
 			
 			<div id="hmdb_detail" class="expand">			
@@ -199,11 +199,11 @@
 				<h1><a name="winmine" class="anchor closed">Winmine</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://winmine.free.fr">http://winmine.free.fr</a></li>
-					<li><span class="label">Created in:</span> 2004</li>
+					<li><span class="label">Année de création:</span> 2004</li>
 					<li><span class="label">Version:</span> 1.5</li>
 				</ul>
 								
-				<p>One day that I had time to waste I built this site dedicated to the minesweeper game. You'll  find technics an a few tips about the best game ever.</p>
+				<p>Un jours que j'avais du temps devant moi j'ai monté ce petit site consacré au démieur. Au programme&nbsp;: astuces et techniques de jeu.</p>
 			</div>
 
 			
@@ -219,11 +219,11 @@
 				<h1><a name="prepa" class="anchor closed">Prepa Monod</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://prepa.monod.free.fr">http://prepa.monod.free.fr</a></li>
-					<li><span class="label">Created in:</span> 2003</li>
+					<li><span class="label">Année de création:</span> 2003</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 			
-				<p>A too-soon-aborted project, built with friends of mine in preparatory class.<br />I just keep it for <a href="http://prepa.monod.free.fr/?page=photos&amp;photo=classe">the pictures</a> taken during the year  and mostly for those taken in the Vincennes botanic park.</p>
+				<p>Site de la promo 2003 de la classe de PCSI du lycée Gustave Monod d'enghien-les-Bains. <br />Je le garde principalement pour <a href="http://prepa.monod.free.fr/?page=photos&amp;photo=classe">les photos</a> prises pendant l'année et le concours des petites Mines au parc botanique de Vincennes.</p>
 			</div>
 			
 			<div id="prepa_detail" class="expand">			
@@ -237,12 +237,12 @@
 			<div id="icons">
 				<h1><a name="icons" class="anchor closed">TV series icon set</a></h1>				
 				<ul>
-					<li><span class="label">Created in:</span> 2010</li>
+					<li><span class="label">Année de création:</span> 2010</li>
 					<li><span class="label">Programs used:</span> Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Icons for the missing TV series, based on the template <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.<br />The whole set is available to <a href="img/resource/iconset.zip">download</a>.</p>
+				<p>Icônes manquantes pour le pack <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/iconset.zip">téléchargnment</a>.</p>
 			</div>
 			
 			<div id="icons_detail" class="expand">			
@@ -264,7 +264,7 @@
 			<div id="anon">
 				<h1><a name="anon" class="anchor closed">Anonymous</a></h1>				
 				<ul>
-					<li><span class="label">Created in:</span> 2010</li>
+					<li><span class="label">Année de création:</span> 2010</li>
 					<li><span class="label">Programs used:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
@@ -282,12 +282,12 @@
 			<div id="jason">
 				<h1><a name="jason" class="anchor closed">Jason project</a></h1>				
 				<ul>
-					<li><span class="label">Created in:</span> 2010</li>
+					<li><span class="label">Année de création:</span> 2010</li>
 					<li><span class="label">Programs used:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Icons set and wallpaper related the the Jason project, for CEA.</p>
+				<p>Jeu d'icônes et fond d'écran du projet Jason, réalisé pour le CEA.</p>
 			</div>
 			
 			<div id="jason_detail" class="expand">			
@@ -303,12 +303,12 @@
 			<div id="ismans">
 				<h1><a name="ismans" class="anchor closed" onclick="expand(16, this.parentNode.offsetTop)">International ISMANS ltd.</a></h1>				
 				<ul>
-					<li><span class="label">Created in:</span> 2007</li>
+					<li><span class="label">Année de création:</span> 2007</li>
 					<li><span class="label">Programs used:</span> Adobe Illustrator CS2</li>
 
 				</ul>
 								
-				<p>Logo done as project for my Master in management.</p>
+				<p>Logo créé dans le cadre d'un projet lors de mon Master en management.</p>
 			</div>
 			
 			<div id="ismans_detail" class="expand">			
@@ -321,12 +321,12 @@
 			<div id="trinome">
 				<h1><a name="trinome" class="anchor closed">Trinôme</a></h1>				
 				<ul>
-					<li><span class="label">Created in:</span> 2006</li>
+					<li><span class="label">Année de création:</span> 2006</li>
 					<li><span class="label">Programs used:</span> Adobe Photoshop CS2</li>
 
 				</ul>
 								
-				<p>Photoshopped picture of me an my two project partners (Gidoo et Vins) at <acronym title="&Eacute;cole Supérieure d'Ingénieurs en Informatique et Génie de Télécommunications">ESIGETEL</acronym>.</p>
+				<p>Photo retouchée de mes deux binômes et moi (Gidoo et Vins) à l'<acronym title="&Eacute;cole Supérieure d'Ingénieurs en Informatique et Génie de Télécommunications">ESIGETEL</acronym>.</p>
 			</div>
 			
 			<div id="trinome_detail" class="expand">			
@@ -344,7 +344,7 @@
 					<li><span class="label">Programs used:</span> Adobe Illustrator CS2, Adobe Photoshop CS2</li>
 				</ul>
 								
-				<p>Logo created fo my specialty at ESIGETEL. TSE is for Embedded Systems Technologies.</p>
+				<p>Logo créé pour ma voie d'approfondissement à l'ESIGETEL, Technologie des Systèmes Embarqués.</p>
 			</div>
 			
 			<div id="tse_detail" class="expand">			
@@ -361,7 +361,7 @@
 					<li><span class="label">Programs used:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
-				<p>Wallpaper about the game <a href="http://fr.abalonegames.com">abalone</a>. I won a game box in a wallpaper contest on the official website</p>
+				<p>Fond d'écran sur le thème du jeu <a href="http://fr.abalonegames.com">abalone</a>. Pour la petite histoire, j'ai gagné une boîte de jeu en le publiant sur le site officiel.</p>
 			</div>
 			
 			<div id="abalone_detail" class="expand">			
@@ -378,7 +378,7 @@
 					<li><span class="label">Programs used:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
-				<p>Wallpaper about The Lord Of The Rings.</p>
+				<p>Fond d'écran sur le thème du Seigneur des anneaux.</p>
 			</div>
 			
 			<div id="ring_detail" class="expand">			
@@ -392,7 +392,7 @@
 			<div id="itemlist">
 				<h1><a name="item10" class="anchor closed" onclick="expand(10, this.parentNode.offsetTop)">[Cup] of coffee</a></h1>
 
-				<p>Theme for <a href="http://www.dotclear.net">DotClear</a> created for <a href="http://gregseth.free.fr/blog">my old blog</a>.</p>
+				<p>Thème pour <a href="http://www.dotclear.net">DotClear</a> créé pour mon ancien blog</a>.</p>
 			</div>
 			
 			<div id="expand10" class="expand">			
@@ -409,7 +409,7 @@
 					<li><span class="label">Programs used:</span> Macromedia Dreamweaver 8, Adobe Photoshop CS2</li>
 				</ul>
 								
-				<p>Design proposal, made during my second year internship.</p>
+				<p>Proposition de maquette réalisée pendant mon stage de seconde année.</p>
 			</div>
 			
 			<div id="expand22" class="expand">			
@@ -424,7 +424,7 @@
 			<div id="itemlist">
 				<h1><a name="item11" class="anchor closed" onclick="expand(11, this.parentNode.offsetTop)">OGame</a></h1>
 				
-				<p>Theme or the <acronym title="Massive Multiplayer Online Role Playing Game">MMORPG</acronym> <a href="http://www.ogame.fr">OGame</a>, based on the <a href="http://www.webdiod.com/">Endless</a> wallpapaer. To use it in he game, use this address: <a href="http://11010101110.free.fr/OGame/revolution/">http://11010101110.free.fr/OGame/revolution/</a>.</p>
+				<p>Thème pour le <acronym title="Massive Multiplayer Online Role Playing Game">MMORPG</acronym> <a href="http://www.ogame.fr">OGame</a>, basé sur le fond d'écran <a href="http://www.webdiod.com/">Endless</a>.</p>
 			</div>
 			
 			<div id="expand11" class="expand">			
@@ -433,11 +433,11 @@
 					<li></li>
 				</ul>			
 			</div>
-				
+							
 			<div id="itemlist">
 				<h1><a name="item9" class="anchor closed" onclick="expand(9, this.parentNode.offsetTop)">DotClear 2</a></h1>
 																	
-				<p>Theme for <a href="http://www.dotclear.net">DotClear</a>. You can have preview of it on <a href="http://www.esigetel.free.fr/projet">the blog</a> I created for my 3rd year engineering school<br />Send me a mail if you're interested.</p>
+				<p>Thème pour <a href="http://www.dotclear.net">DotClear</a>. Un aperçu est disponible sur <a href="http://www.esigetel.free.fr/projet">le blog</a> que j'ai créé pour mon projet de fin d'études.</p>
 			</div>
 			
 			<div id="expand9" class="expand">			
