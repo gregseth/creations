@@ -184,8 +184,10 @@ strong {
 	font-size:17px;
 	margin:0;
 	padding:0;
+	
+	outline: none;
 }
-#list-nav a:hover {
+#list-nav a:hover, #list-nav a:active, #list-nav a:focus {
 	color:#CCC;
 	text-decoration:none;
 	font-weight:bold;

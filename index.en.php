@@ -80,10 +80,6 @@ $(function() {
 	$('h1 a').click(function() {
 		$('.expand').fadeOut();
 		
-        $('html,body').animate({
-        	'scrollTop' : $(this).offset().top
-        });
-        
 		$('#' + this.name + '_detail').css('top', $('#' + this.name).offset().top + 'px' );
 		$('#' + this.name + '_detail').fadeToggle();
 		
@@ -172,7 +168,7 @@ $(function() {
 	<div id="wrapper">
 		<div id="text">
 		<? if ($page == 'websites'): ?>
-			<div id="itemlist">
+			<div id="ckeller">
 				<h1><a name="ckeller" class="anchor closed">C. Keller</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://encadrement.free.fr">http://encadrement.free.fr</a></li>
@@ -329,7 +325,7 @@ $(function() {
 
 				</ul>
 								
-				<p>Icons for the missing TV series, based on the template <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.</p>
+				<p>Icons for the missing TV series, based on the template <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.<br />The whole set is available to <a href="img/resource/iconset.zip">download</a>.</p>
 			</div>
 			
 			<div id="icons_detail" class="expand">			
@@ -341,6 +337,7 @@ $(function() {
 					<li><a href="img/resource/Lie-to-me.png" class="groupImage" rel="icons"><img src="img/resource/Lie-to-me.png" alt="Lie to me" /></a></li>
 					<li><a href="img/resource/NCIS.png" class="groupImage" rel="icons"><img src="img/resource/NCIS.png" alt="NCIS" /></a></li>
 					<li><a href="img/resource/The-Walking-Dead.png" class="groupImage" rel="icons"><img src="img/resource/The-Walking-Dead.png" alt="The Walking Dead" /></a></li>
+					<li><a href="img/resource/Mad-Men.png" class="groupImage" rel="icons"><img src="img/resource/Mad-Men.png" alt="Mad Men" /></a></li>
 					<li><a href="img/resource/Little-Britain.png" class="groupImage" rel="icons"><img src="img/resource/Little-Britain.png" alt="Little Britain" /></a></li>
 					<li><a href="img/resource/Hustle.png" class="groupImage" rel="icons"><img src="img/resource/Hustle.png" alt="Hustle" /></a></li>
 					<li><a href="img/resource/Twin-Peaks.png" class="groupImage" rel="icons"><img src="img/resource/Twin-Peaks.png" alt="Twin Peaks" /></a></li>
