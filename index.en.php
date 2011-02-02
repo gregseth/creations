@@ -14,100 +14,16 @@
 <script type="text/javascript" src="fancybox/jquery.easing.js"></script>
 <script type="text/javascript" src="fancybox/jquery.fancybox.js"></script>
 
-<script type="text/javascript">
+<script type="text/javascript" src="animations.js"></script>
 
-var step = 362;
-
-$(function() {
-
-	function atStart() {
-		return $('#list:first-child').css('margin-left') == '0px';
-	}
-	
-	function atEnd() {
-		return $('#list:first-child').css('margin-left') == -step*($('#list li').size()-1)+'px';
-	}
-
-	function nextAtStart() {
-		return $('#list:first-child').css('margin-left') == -step+'px';
-	}
-	
-	function nextAtEnd() {
-		return $('#list:first-child').css('margin-left') == -step*($('#list li').size()-2)+'px';
-	}
-
-	
-	$('#prev').click(function() {
-		if (!atStart()) {
-			$('#list:first-child').animate({
-				'margin-left' : '+='+step
-			});
-			
-			$('#next img').removeClass('disabled');
-			
-		}
-		
-		if (nextAtStart()) {
-			$('#prev img').addClass('disabled');
-		}
-	});
-
-	$('#next').click(function() {
-		if (!atEnd()) {
-			$('#list:first-child').animate({
-				'margin-left' : '-='+step
-			});
-			
-			$('#prev img').removeClass('disabled');
-		}
-		
-		if (nextAtEnd()) {
-			$('#next img').addClass('disabled');
-		}
-	});
-	
-	$('#list a').click(function() {
-
-        $('html,body').animate({
-        	'scrollTop' : $('[name=' + this.hash.slice(1) +']').offset().top
-        });
-        
-        $('[name=' + this.hash.slice(1) +']').click();
-
-        return false;
-	});
-	
-	$('h1 a').click(function() {
-		$('.expand').fadeOut();
-		
-		$('#' + this.name + '_detail').css('top', $('#' + this.name).offset().top + 'px' );
-		$('#' + this.name + '_detail').fadeToggle();
-		
-	});
-	
-	$("a.groupImage").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200,
-		'overlayColor'	: 	'#000'
-	});
-	
-
-	
-});
-
-
-</script>
 </head>
 
 <body>
-<?
-	$page = (empty($_GET['page'])) ? 'websites' : $_GET['page'];	
-?>
+<? $page = (empty($_GET['page'])) ? 'websites' : $_GET['page']; ?>
 <div id="header">
+
 	<p><span>Greg-Seth</span> Creations</p>
-	<div id="langswitcher"><!--<a href="?page=<?=$page?>&amp;l=<?=($_SESSION['l']=='fr_FR') ? 'en_US' : 'fr_FR'?>" title="<?=('View this page in english')?>"><img src="img/<?=($_SESSION['l']=='fr_FR') ? 'en_EN' : 'fr_FR'?>.png" alt="flag" /></a>--></div>
+	<div id="langswitcher"><a href="index.fr.php?page=<?=$page?>" title="Voir cette page en français"><img src="img/fr_FR.png" alt="flag" /></a></div>
 </div><!--#header-->
 
 <div id="page">
@@ -183,7 +99,7 @@ $(function() {
 			<div id="ckeller_detail" class="expand">			
 				<h1>C. Keller</h1>
 				<ul>
-					<li><a href="img/resource/encadrement.png"><img src="img/resource/encadrement.png" alt="C. Keller" /></a></li>
+					<li><a href="img/resource/encadrement.png" class="fancyMe"><img src="img/resource/encadrement.png" alt="C. Keller" /></a></li>
 				</ul>			
 			</div>
 					
@@ -201,7 +117,7 @@ $(function() {
 			<div id="gregseth_detail" class="expand">			
 				<h1>Greg-Seth</h1>
 				<ul>
-					<li><a href="img/resource/gregseth.png"><img src="img/resource/gregseth.png" alt="Greg-Seth" /></a></li>
+					<li><a href="img/resource/gregseth.png" class="fancyMe"><img src="img/resource/gregseth.png" alt="Greg-Seth" /></a></li>
 				</ul>			
 			</div>
 					
@@ -219,7 +135,7 @@ $(function() {
 			<div id="chemicals_detail" class="expand">			
 				<h1>Chemicals</h1>
 				<ul>
-					<li><a href="img/resource/chemicals.png"><img src="img/resource/chemicals.png" alt="Chemicals" /></a></li>
+					<li><a href="img/resource/chemicals.png" class="fancyMe"><img src="img/resource/chemicals.png" alt="Chemicals" /></a></li>
 				</ul>			
 			</div>
 			
@@ -237,7 +153,7 @@ $(function() {
 			<div id="donoterase_detail" class="expand">			
 				<h1>DoNotErase</h1>
 				<ul>
-					<li><a href="img/resource/notanynumber.png"><img src="img/resource/notanynumber.png" alt="DoNotErase" /></a></li>
+					<li><a href="img/resource/notanynumber.png" class="fancyMe"><img src="img/resource/notanynumber.png" alt="DoNotErase" /></a></li>
 				</ul>			
 			</div>
 					
@@ -255,7 +171,7 @@ $(function() {
 			<div id="fractals_detail" class="expand">			
 				<h1>Fractals</h1>
 				<ul>
-					<li><a href="img/resource/lesfractalestpe.png"><img src="img/resource/lesfractalestpe.png" alt="Fractals" /></a></li>
+					<li><a href="img/resource/lesfractalestpe.png" class="fancyMe"><img src="img/resource/lesfractalestpe.png" alt="Fractals" /></a></li>
 				</ul>			
 			</div>
 
@@ -274,7 +190,7 @@ $(function() {
 				<h1>The Home Movie Database</h1>
 
 				<ul>
-					<li></li>
+					<li><a href="img/resource/hmdb.png" class="fancyMe"><img src="img/resource/hmdb.png" alt="HMDb" /></a></li>
 				</ul>			
 			</div>
 					
@@ -293,7 +209,7 @@ $(function() {
 			<div id="winmine_detail" class="expand">			
 				<h1>Winmine</h1>
 				<ul>
-					<li><a href="img/resource/winmine.png"><img src="img/resource/winmine.png" alt="Winmine" /></a></li>
+					<li><a href="img/resource/winmine.png" class="fancyMe"><img src="img/resource/winmine.png" alt="Winmine" /></a></li>
 				</ul>
 							
 			</div>
@@ -312,7 +228,7 @@ $(function() {
 			<div id="prepa_detail" class="expand">			
 				<h1>Prepa Monod</h1>
 				<ul>
-					<li><a href="img/resource/prepamonod.png"><img src="img/resource/prepamonod.png" alt="Prepa Monod" /></a></li>
+					<li><a href="img/resource/prepamonod.png" class="fancyMe"><img src="img/resource/prepamonod.png" alt="Prepa Monod" /></a></li>
 				</ul>			
 			</div>
 			
@@ -331,16 +247,16 @@ $(function() {
 			<div id="icons_detail" class="expand">			
 				<h1>TV series icon set</h1>
 				<ul>
-					<li><a href="img/resource/Damages.png" class="groupImage" rel="icons"><img src="img/resource/Damages.png" alt="Damages" /></a></li>
-					<li><a href="img/resource/Hawaii-Five-O.png" class="groupImage" rel="icons"><img src="img/resource/Hawaii-Five-O.png" alt="Hawaii Five O" /></a></li>
-					<li><a href="img/resource/Nikita.png" class="groupImage" rel="icons"><img src="img/resource/Nikita.png" alt="Nikita" /></a></li>
-					<li><a href="img/resource/Lie-to-me.png" class="groupImage" rel="icons"><img src="img/resource/Lie-to-me.png" alt="Lie to me" /></a></li>
-					<li><a href="img/resource/NCIS.png" class="groupImage" rel="icons"><img src="img/resource/NCIS.png" alt="NCIS" /></a></li>
-					<li><a href="img/resource/The-Walking-Dead.png" class="groupImage" rel="icons"><img src="img/resource/The-Walking-Dead.png" alt="The Walking Dead" /></a></li>
-					<li><a href="img/resource/Mad-Men.png" class="groupImage" rel="icons"><img src="img/resource/Mad-Men.png" alt="Mad Men" /></a></li>
-					<li><a href="img/resource/Little-Britain.png" class="groupImage" rel="icons"><img src="img/resource/Little-Britain.png" alt="Little Britain" /></a></li>
-					<li><a href="img/resource/Hustle.png" class="groupImage" rel="icons"><img src="img/resource/Hustle.png" alt="Hustle" /></a></li>
-					<li><a href="img/resource/Twin-Peaks.png" class="groupImage" rel="icons"><img src="img/resource/Twin-Peaks.png" alt="Twin Peaks" /></a></li>
+					<li><a href="img/resource/Damages.png" class="fancyMe" rel="icons"><img src="img/resource/Damages.png" alt="Damages" /></a></li>
+					<li><a href="img/resource/Hawaii-Five-O.png" class="fancyMe" rel="icons"><img src="img/resource/Hawaii-Five-O.png" alt="Hawaii Five O" /></a></li>
+					<li><a href="img/resource/Nikita.png" class="fancyMe" rel="icons"><img src="img/resource/Nikita.png" alt="Nikita" /></a></li>
+					<li><a href="img/resource/Lie-to-me.png" class="fancyMe" rel="icons"><img src="img/resource/Lie-to-me.png" alt="Lie to me" /></a></li>
+					<li><a href="img/resource/NCIS.png" class="fancyMe" rel="icons"><img src="img/resource/NCIS.png" alt="NCIS" /></a></li>
+					<li><a href="img/resource/The-Walking-Dead.png" class="fancyMe" rel="icons"><img src="img/resource/The-Walking-Dead.png" alt="The Walking Dead" /></a></li>
+					<li><a href="img/resource/Mad-Men.png" class="fancyMe" rel="icons"><img src="img/resource/Mad-Men.png" alt="Mad Men" /></a></li>
+					<li><a href="img/resource/Little-Britain.png" class="fancyMe" rel="icons"><img src="img/resource/Little-Britain.png" alt="Little Britain" /></a></li>
+					<li><a href="img/resource/Hustle.png" class="fancyMe" rel="icons"><img src="img/resource/Hustle.png" alt="Hustle" /></a></li>
+					<li><a href="img/resource/Twin-Peaks.png" class="fancyMe" rel="icons"><img src="img/resource/Twin-Peaks.png" alt="Twin Peaks" /></a></li>
 				</ul>			
 			</div>
 
@@ -358,7 +274,7 @@ $(function() {
 			<div id="anon_detail" class="expand">			
 				<h1>Anonymous</h1>
 				<ul>
-					<li><a href="img/resource/anon_2560x1440.jpg" class="groupImage"><img src="img/resource/anon_2560x1440.jpg" alt="Jason wallpaper" /></a></li>
+					<li><a href="img/resource/anon_2560x1440.jpg" class="fancyMe"><img src="img/resource/anon_2560x1440.jpg" alt="Jason wallpaper" /></a></li>
 				</ul>			
 			</div>
 			
@@ -376,10 +292,10 @@ $(function() {
 			<div id="jason_detail" class="expand">			
 				<h1>Jason project</h1>
 				<ul>
-					<li><img src="img/resource/sigvisu_icon.png" class="groupImage" rel="jason" alt="SigVisu" /></li>
-					<li><img src="img/resource/jade_icon.png" class="groupImage" rel="jason" alt="Jade" /></li>
-					<li><img src="img/resource/onyx_icon.png" class="groupImage" rel="jason" alt="Onyx" /></li>
-					<li><a href="img/resource/jason_wallpaper.jpg" class="groupImage" rel="jason"><img src="img/resource/jason_wallpaper.jpg" alt="Jason wallpaper" /></a></li>
+					<li><img src="img/resource/sigvisu_icon.png" class="fancyMe" rel="jason" alt="SigVisu" /></li>
+					<li><img src="img/resource/jade_icon.png" class="fancyMe" rel="jason" alt="Jade" /></li>
+					<li><img src="img/resource/onyx_icon.png" class="fancyMe" rel="jason" alt="Onyx" /></li>
+					<li><a href="img/resource/jason_wallpaper.jpg" class="fancyMe" rel="jason"><img src="img/resource/jason_wallpaper.jpg" alt="Jason wallpaper" /></a></li>
 				</ul>			
 			</div>
 			
@@ -397,7 +313,7 @@ $(function() {
 			<div id="ismans_detail" class="expand">			
 				<h1>International ISMANS ltd.</h1>
 				<ul>
-					<li><a href="img/resource/ismans_1600x628.png" class="groupImage"><img src="img/resource/ismans_1600x628.png"  alt="International ISMANS ltd." /></a></li>
+					<li><a href="img/resource/ismans_1600x628.png" class="fancyMe"><img src="img/resource/ismans_1600x628.png"  alt="International ISMANS ltd." /></a></li>
 				</ul>			
 			</div>
 
@@ -415,8 +331,8 @@ $(function() {
 			<div id="trinome_detail" class="expand">			
 				<h1>Trinôme</h1>
 				<ul>
-					<li><a href="img/resource/trinome_1600x1200.jpg" class="groupImage" rel="trinome"><img src="img/resource/trinome_1600x1200.jpg" alt="Trinôme" /></a></li>
-					<li><a href="img/resource/trinome_original.jpg" class="groupImage" rel="trinome"><img src="img/resource/trinome_original.jpg" alt="Trinôme" /></a></li>
+					<li><a href="img/resource/trinome_1600x1200.jpg" class="fancyMe" rel="trinome"><img src="img/resource/trinome_1600x1200.jpg" alt="Trinôme" /></a></li>
+					<li><a href="img/resource/trinome_original.jpg" class="fancyMe" rel="trinome"><img src="img/resource/trinome_original.jpg" alt="Trinôme" /></a></li>
 				</ul>			
 			</div>
 
@@ -433,7 +349,7 @@ $(function() {
 			<div id="tse_detail" class="expand">			
 				<h1>Logo TSE</h1>
 				<ul>
-					<li><a href="img/resource/tse_1280x800.jpg" class="groupImage"><img src="img/resource/tse_1280x800.jpg" alt="Logo TSE" /></a></li>
+					<li><a href="img/resource/tse_1280x800.jpg" class="fancyMe"><img src="img/resource/tse_1280x800.jpg" alt="Logo TSE" /></a></li>
 				</ul>			
 			</div>
 			
@@ -450,7 +366,7 @@ $(function() {
 			<div id="abalone_detail" class="expand">			
 				<h1>Abalone</h1>
 				<ul>
-					<li><a href="img/resource/abalone_1024x768.jpg" class="groupImage"><img src="img/resource/abalone_1024x768.jpg" alt="Abalone" /></a></li>
+					<li><a href="img/resource/abalone_1024x768.jpg" class="fancyMe"><img src="img/resource/abalone_1024x768.jpg" alt="Abalone" /></a></li>
 				</ul>			
 			</div>
 			
@@ -467,7 +383,7 @@ $(function() {
 			<div id="ring_detail" class="expand">			
 				<h1>One ring to rule them all</h1>
 				<ul>
-					<li><a href="img/resource/ring_1600x1200.jpg" class="groupImage"><img src="img/resource/ring_1600x1200.jpg" alt="One ring to rule them all" /></a></li>
+					<li><a href="img/resource/ring_1600x1200.jpg" class="fancyMe"><img src="img/resource/ring_1600x1200.jpg" alt="One ring to rule them all" /></a></li>
 				</ul>			
 			</div>
 			

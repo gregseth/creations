@@ -68,7 +68,7 @@ $(function() {
 		
 	});
 	
-	$("a.groupImage").fancybox({
+	$("a.fancyMe").fancybox({
 		'transitionIn'	:	'elastic',
 		'transitionOut'	:	'elastic',
 		'speedIn'		:	600, 
