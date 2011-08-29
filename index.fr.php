@@ -22,7 +22,7 @@
 <? $page = (empty($_GET['page'])) ? 'websites' : $_GET['page']; ?>
 <div id="header">
 	<p><span>Greg-Seth</span> Creations</p>
-	<div id="langswitcher"><a href="index.en.php?page=<?=$page?>" title="View this page in English"><img src="img/en_EN.png" alt="flag" /></a></div>
+	<!--<div id="langswitcher"><a href="index.en.php?page=<?=$page?>" title="View this page in English"><img src="img/en_EN.png" alt="flag" /></a></div>-->
 </div><!--#header-->
 
 <div id="page">
@@ -40,6 +40,7 @@
 				<li class="visible"><a href="#prepa"><img src="img/list/prepa.png" alt="Prepa Monod" /></a></li>
 				
 			<? elseif ($page == 'graphics'): ?>
+				<li class="visible"><a href="#social_buttons"><img src="img/list/social.png" alt="Social buttons" /></a></li>
 				<li class="visible"><a href="#icons"><img src="img/list/icons.png" alt="Icon set" /></a></li>
 				<li class="visible"><a href="#anon"><img src="img/list/anon.png" alt="Anon." /></a></li>
 				<li class="visible"><a href="#jason"><img src="img/list/jason.png" alt="Jason" /></a></li>
@@ -50,10 +51,11 @@
 				<li class="visible"><a href="#ring"><img src="img/list/ring.png" alt="One ring to rule them all" /></a></li>
 				
 			<? elseif ($page == 'themes'): ?>
-				<li class="visible"><a href="#item10"><img src="img/list/cupofcoffee.png" alt="[Cup] of coffee" /></a></li>
-				<li class="visible"><a href="#item22"><img src="img/list/geoloc.png" alt="Geoloc Systems" /></a></li>
-				<li class="visible"><a href="#item11"><img src="img/list/ogame.png" alt="OGame" /></a></li>
-				<li class="visible"><a href="#item9" ><img src="img/list/kfet.png" alt="DotClear 2" /></a></li>
+				<li class="visible"><a href="#unity"><img src="img/list/unity.png" alt="Unity — An ubuntu-like CSS theme" /></a></li>
+				<li class="visible"><a href="#cup"><img src="img/list/cupofcoffee.png" alt="[Cup] of coffee" /></a></li>
+				<li class="visible"><a href="#geoloc"><img src="img/list/geoloc.png" alt="Geoloc Systems" /></a></li>
+				<li class="visible"><a href="#ogame"><img src="img/list/ogame.png" alt="OGame" /></a></li>
+				<li class="visible"><a href="#dotclear" ><img src="img/list/kfet.png" alt="DotClear 2" /></a></li>
 
 			<? elseif ($page == 'widgets'):  ?>
 				<!--
@@ -70,10 +72,10 @@
 
 	</div><!--#gllery-->
 	<ul id="tabs">
-		<!--<li><a href="?page=widgets" class="tab <?=$page=='widgets'?'selected':'unselected'?>">Widgets</a></li>-->
-		<li><a href="?page=themes" class="tab <?=$page=='themes'?'selected':'unselected'?>">Thèmes</a></li>
-		<li><a href="?page=graphics" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Design</a></li>
-		<li><a href="?page=websites" class="tab <?=$page=='websites'?'selected':'unselected'?>">Sites</a></li>
+		<!--<li><a href="/widgets" class="tab <?=$page=='widgets'?'selected':'unselected'?>">Widgets</a></li>-->
+		<li><a href="/themes" class="tab <?=$page=='themes'?'selected':'unselected'?>">Thèmes</a></li>
+		<li><a href="/graphics" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Design</a></li>
+		<li><a href="/websites" class="tab <?=$page=='websites'?'selected':'unselected'?>">Sites</a></li>
 	</ul>
 </div><!--#page-->
 
@@ -83,15 +85,15 @@
 	<div id="wrapper">
 		<div id="text">
 		<? if ($page == 'websites'): ?>
-			<div id="ckeller">
+			<div id="ckeller" class="desc">
 				<h1><a name="ckeller" class="anchor closed">C. Keller</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://encadrement.free.fr">http://encadrement.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 2000</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2000</li>
 					<li><span class="label">Version:</span> 2.0</li>
 				</ul>
 								
-				<p>Galerie créée pour l'artiste Catherine Keller. Pour plus d'inforamtions ou toute question vous pouver la contacter par mail à : <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
+				<p>Galerie créée pour l'artiste Catherine Keller. Pour plus d'inforamtions ou toute question vous pouver la contacter par mail à&nbsp;: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
 
 			</div>
 			
@@ -102,11 +104,11 @@
 				</ul>			
 			</div>
 					
-			<div id="gregseth">
+			<div id="gregseth" class="desc">
 				<h1><a name="gregseth" class="anchor closed">Greg-Seth</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://greg.seth.free.fr">http://greg.seth.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 1999</li>
+					<li><span class="label">Année de création&nbsp;:</span> 1999</li>
 					<li><span class="label">Version:</span> 2.5</li>
 				</ul>
 								
@@ -120,11 +122,11 @@
 				</ul>			
 			</div>
 					
-			<div id="chemicals">
+			<div id="chemicals" class="desc">
 				<h1><a name="chemicals" class="anchor closed">Chemicals</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://chemicals.free.fr">http://chemicals.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 2003</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2003</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 								
@@ -138,11 +140,11 @@
 				</ul>			
 			</div>
 			
-			<div id="donoterase">
+			<div id="donoterase" class="desc">
 				<h1><a name="donoterase" class="anchor closed">DoNotErase</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://not.any.number.free.fr">http://not.any.number.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 2003</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2003</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 								
@@ -156,11 +158,11 @@
 				</ul>			
 			</div>
 					
-			<div id="fractals">
+			<div id="fractals" class="desc">
 				<h1><a name="fractals" class="anchor closed" class="fancyMe">Fractals</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://lesfractales.tpe.free.fr">http://lesfractales.tpe.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 2006</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2006</li>
 					<li><span class="label">Version:</span> 1.6</li>
 				</ul>
 								
@@ -174,11 +176,11 @@
 				</ul>			
 			</div>
 
-			<div id="hmdb">
+			<div id="hmdb" class="desc">
 				<h1><a name="hmdb" class="anchor closed">The Home Movie Database</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <strong>private</strong></li>
-					<li><span class="label">Année de création:</span> 2002</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2002</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 								
@@ -193,15 +195,15 @@
 				</ul>			
 			</div>
 					
-			<div id="winmine">
+			<div id="winmine" class="desc">
 				<h1><a name="winmine" class="anchor closed">Winmine</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://winmine.free.fr">http://winmine.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 2004</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2004</li>
 					<li><span class="label">Version:</span> 1.5</li>
 				</ul>
 								
-				<p>Un jours que j'avais du temps devant moi j'ai monté ce petit site consacré au démieur. Au programme&nbsp;: astuces et techniques de jeu.</p>
+				<p>Un jours que j'avais du temps devant moi j'ai monté ce petit site consacré au démineur. Au programme&nbsp;: astuces et techniques de jeu.</p>
 			</div>
 
 			
@@ -213,15 +215,15 @@
 							
 			</div>
 					
-			<div id="prepa">
+			<div id="prepa" class="desc">
 				<h1><a name="prepa" class="anchor closed">Prepa Monod</a></h1>
 				<ul>
 					<li><span class="label">URL:</span> <a href="http://prepa.monod.free.fr">http://prepa.monod.free.fr</a></li>
-					<li><span class="label">Année de création:</span> 2003</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2003</li>
 					<li><span class="label">Version:</span> 1.0</li>
 				</ul>
 			
-				<p>Site de la promo 2003 de la classe de PCSI du lycée Gustave Monod d'enghien-les-Bains. <br />Je le garde principalement pour <a href="http://prepa.monod.free.fr/?page=photos&amp;photo=classe">les photos</a> prises pendant l'année et le concours des petites Mines au parc botanique de Vincennes.</p>
+				<p>Site de la promo 2003 de la classe de PCSI du lycée Gustave Monod d'Enghien-les-Bains. <br />Je le garde principalement pour <a href="http://prepa.monod.free.fr/?page=photos&amp;photo=classe">les photos</a> prises pendant l'année et le concours des petites Mines au parc botanique de Vincennes.</p>
 			</div>
 			
 			<div id="prepa_detail" class="expand">			
@@ -232,15 +234,38 @@
 			</div>
 			
 		<? elseif ($page == 'graphics'): ?>
-			<div id="icons">
-				<h1><a name="icons" class="anchor closed">TV series icon set</a></h1>				
+			<div id="social_buttons" class="desc">
+				<h1><a name="social_buttons" class="anchor closed">Boutons pour réseaux sociaux</a></h1>				
 				<ul>
-					<li><span class="label">Année de création:</span> 2010</li>
-					<li><span class="label">Programs used:</span> Adobe Photoshop CS5</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2011</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Icônes manquantes pour le pack <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/iconset.zip">téléchargnment</a>.</p>
+				<p>Boutons d'interface pour liens vers réseaux sociaux. Le fichier source PSD est <a href="img/resource/social-buttons_by_GregSeth.zip">disponible au téléchargement</a>.</p>
+			</div>
+			
+			<div id="social_buttons_detail" class="expand">			
+				<h1>Boutons pour réseaux sociaux</h1>
+				<ul>
+					<li><a href="img/resource/rss.png" class="fancyMe" rel="buttons"><img src="img/resource/rss.png" alt="RSS feed" /></a></li>
+					<li><a href="img/resource/twitter.png" class="fancyMe" rel="buttons"><img src="img/resource/twitter.png" alt="Twitter" /></a></li>
+					<li><a href="img/resource/facebook.png" class="fancyMe" rel="buttons"><img src="img/resource/facebook.png" alt="Facebook" /></a></li>
+					<li><a href="img/resource/flickr.png" class="fancyMe" rel="buttons"><img src="img/resource/flickr.png" alt="Flickr" /></a></li>
+					<li><a href="img/resource/deviantart.png" class="fancyMe" rel="buttons"><img src="img/resource/deviantart.png" alt="Deviant Art" /></a></li>
+					
+				</ul>			
+			</div>
+
+			<div id="icons" class="desc">
+				<h1><a name="icons" class="anchor closed">TV series icon set</a></h1>				
+				<ul>
+					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Photoshop CS5</li>
+
+				</ul>
+								
+				<p>Icônes manquantes pour le pack <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/10-TV-series-icons_by_GregSeth.zip">téléchargnment</a>.</p>
 			</div>
 			
 			<div id="icons_detail" class="expand">			
@@ -259,11 +284,11 @@
 				</ul>			
 			</div>
 
-			<div id="anon">
+			<div id="anon" class="desc">
 				<h1><a name="anon" class="anchor closed">Anonymous</a></h1>				
 				<ul>
-					<li><span class="label">Année de création:</span> 2010</li>
-					<li><span class="label">Programs used:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
 								
@@ -277,11 +302,11 @@
 				</ul>			
 			</div>
 			
-			<div id="jason">
+			<div id="jason" class="desc">
 				<h1><a name="jason" class="anchor closed">Jason project</a></h1>				
 				<ul>
-					<li><span class="label">Année de création:</span> 2010</li>
-					<li><span class="label">Programs used:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
 								
@@ -298,11 +323,11 @@
 				</ul>			
 			</div>
 			
-			<div id="ismans">
+			<div id="ismans" class="desc">
 				<h1><a name="ismans" class="anchor closed" onclick="expand(16, this.parentNode.offsetTop)">International ISMANS ltd.</a></h1>				
 				<ul>
-					<li><span class="label">Année de création:</span> 2007</li>
-					<li><span class="label">Programs used:</span> Adobe Illustrator CS2</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2007</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS2</li>
 
 				</ul>
 								
@@ -316,11 +341,11 @@
 				</ul>			
 			</div>
 
-			<div id="trinome">
+			<div id="trinome" class="desc">
 				<h1><a name="trinome" class="anchor closed">Trinôme</a></h1>				
 				<ul>
-					<li><span class="label">Année de création:</span> 2006</li>
-					<li><span class="label">Programs used:</span> Adobe Photoshop CS2</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2006</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Photoshop CS2</li>
 
 				</ul>
 								
@@ -335,11 +360,11 @@
 				</ul>			
 			</div>
 
-			<div id="tse">
+			<div id="tse" class="desc">
 				<h1><a name="tse" class="anchor closed">Logo TSE</a></h1>
 				<ul>
 					<li><span class="label">Created in:</span> 2007</li>
-					<li><span class="label">Programs used:</span> Adobe Illustrator CS2, Adobe Photoshop CS2</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS2, Adobe Photoshop CS2</li>
 				</ul>
 								
 				<p>Logo créé pour ma voie d'approfondissement à l'ESIGETEL, Technologie des Systèmes Embarqués.</p>
@@ -352,11 +377,11 @@
 				</ul>			
 			</div>
 			
-			<div id="abalone">
+			<div id="abalone" class="desc">
 				<h1><a name="abalone" class="anchor closed">Abalone</a></h1>
 				<ul>
 					<li><span class="label">Created in:</span> 1998</li>
-					<li><span class="label">Programs used:</span> Corel Bryce 4, Adobe Photoshop 7</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
 				<p>Fond d'écran sur le thème du jeu <a href="http://fr.abalonegames.com">abalone</a>. Pour la petite histoire, j'ai gagné une boîte de jeu en le publiant sur le site officiel.</p>
@@ -369,11 +394,11 @@
 				</ul>			
 			</div>
 			
-			<div id="ring">
+			<div id="ring" class="desc">
 				<h1><a name="ring" class="anchor closed">One ring to rule them all</a></h1>				
 				<ul>
 					<li><span class="label">Created in:</span> 1998</li>
-					<li><span class="label">Programs used:</span> Corel Bryce 4, Adobe Photoshop 7</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
 				<p>Fond d'écran sur le thème du Seigneur des anneaux.</p>
@@ -387,30 +412,43 @@
 			</div>
 			
 		<? elseif ($page == 'themes'): ?>
-			<div id="itemlist">
-				<h1><a name="item10" class="anchor closed" onclick="expand(10, this.parentNode.offsetTop)">[Cup] of coffee</a></h1>
+			<div id="unity" class="desc">
+				<h1><a name="unity" class="anchor closed">Unity</a></h1>
+
+				<p>Éléments d'interface pour pages web en CSS3, inspirés des certains éléments d'Ubuntu</a>.</p>
+			</div>
+			
+			<div id="unity_detail" class="expand">			
+				<h1>Unity</h1>
+				<ul>
+					<li><a href="img/resource/unity.htm"><img src="img/resource/unity.png" alt="Unity" /></a></li>
+				</ul>			
+			</div>
+			
+			<div id="cup" class="desc">
+				<h1><a name="cup" class="anchor closed">[Cup] of coffee</a></h1>
 
 				<p>Thème pour <a href="http://www.dotclear.net">DotClear</a> créé pour mon ancien blog</a>.</p>
 			</div>
 			
-			<div id="expand10" class="expand">			
+			<div id="cup_detail" class="expand">			
 				<h1>[Cup] of coffee</h1>
 				<ul>
-					<li></li>
+					<li><a href="img/resource/cupofcoffee.png"><img src="img/resource/cupofcoffee.png" alt="[Cup] of coffee" /></a></li>
 				</ul>			
 			</div>
 			
-			<div id="itemlist">
-				<h1><a name="item22" class="anchor closed" onclick="expand(22, this.parentNode.offsetTop)">Geoloc Systems</a></h1>
+			<div id="geoloc" class="desc">
+				<h1><a name="geoloc" class="anchor closed">Geoloc Systems</a></h1>
 				<ul>
 					<li><span class="label">Created in:</span> 2006</li>
-					<li><span class="label">Programs used:</span> Macromedia Dreamweaver 8, Adobe Photoshop CS2</li>
+					<li><span class="label">Logiciels utilisés&nbsp;:</span> Macromedia Dreamweaver 8, Adobe Photoshop CS2</li>
 				</ul>
 								
 				<p>Proposition de maquette réalisée pendant mon stage de seconde année.</p>
 			</div>
 			
-			<div id="expand22" class="expand">			
+			<div id="geoloc_detail" class="expand">			
 				<h1>Geoloc Systems</h1>
 				<ul>
 					<li><a href="img/resource/geoloc_v2.jpg"><img src="img/resource/geoloc_v2.jpg" alt="Geoloc Systems" /></a></li>
@@ -419,29 +457,29 @@
 			</div>
 
 
-			<div id="itemlist">
-				<h1><a name="item11" class="anchor closed" onclick="expand(11, this.parentNode.offsetTop)">OGame</a></h1>
+			<div id="ogame" class="desc">
+				<h1><a name="ogame" class="anchor closed">OGame</a></h1>
 				
 				<p>Thème pour le <acronym title="Massive Multiplayer Online Role Playing Game">MMORPG</acronym> <a href="http://www.ogame.fr">OGame</a>, basé sur le fond d'écran <a href="http://www.webdiod.com/">Endless</a>.</p>
 			</div>
 			
-			<div id="expand11" class="expand">			
+			<div id="ogame_detail" class="expand">			
 				<h1>OGame</h1>
 				<ul>
-					<li></li>
+					<li><a href="img/resource/ogame_1280x960.jpg"><img src="img/resource/ogame_1280x960.jpg" alt="OGame" /></a></li>
 				</ul>			
 			</div>
 							
-			<div id="itemlist">
-				<h1><a name="item9" class="anchor closed" onclick="expand(9, this.parentNode.offsetTop)">DotClear 2</a></h1>
+			<div id="dotclear" class="desc">
+				<h1><a name="dotclear" class="anchor closed">DotClear 2</a></h1>
 																	
 				<p>Thème pour <a href="http://www.dotclear.net">DotClear</a>. Un aperçu est disponible sur <a href="http://www.esigetel.free.fr/projet">le blog</a> que j'ai créé pour mon projet de fin d'études.</p>
 			</div>
 			
-			<div id="expand9" class="expand">			
+			<div id="dotclear_detail" class="expand">			
 				<h1>DotClear 2</h1>
 				<ul>
-					<li></li>
+					<li><a href="img/resource/kafet.png"><img src="img/resource/kafet.png" alt="Dotclear2" /></a></li>
 				</ul>			
 			</div>
 
@@ -545,18 +583,18 @@
 		</div><!--#text-->
 	</div><!--#wrapper-->
 
-<!--
+
 	<p id="footer">
-		The content of this website is under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/fr/">BY-NC-ND</a> <a href="http://www.creativecommons.org">CreativeCommons</a> license.<br />Any question? Contact me by mail: <a href="mailto:greg.seth@gmail.com">greg.seth@gmail.com</a>.
+		Sauf mention contraire, les créations présentes sur ce site sont sous licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.fr"><img src="img/cc-by-nc-sa" alt="CreativeCommons BY-NC-SA" /></a>. <br />Pour toute autre utilisation de ces images ou si vous avez des questions, contactez-moi&nbsp;: <a href="mailto:&#103;&#114;&#101;&#103;&#046;&#115;&#101;&#116;&#104;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">greg.seth [at] gmail [dot] com</a>.
 	</p>
--->
+
 </div><!--#description-->
 </body>
 
 
 <!--begin: Google Analytics-->
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl."&nbsp; "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">

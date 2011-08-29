@@ -3,6 +3,8 @@ var step = 362;
 
 $(function() {
 
+	var originalFooterTop = $('#footer').offset().top;
+
 	function atStart() {
 		return $('#list:first-child').css('margin-left') == '0px';
 	}
@@ -63,8 +65,15 @@ $(function() {
 	$('h1 a').click(function() {
 		$('.expand').fadeOut();
 		
-		$('#' + this.name + '_detail').css('top', $('#' + this.name).offset().top + 'px' );
+		var topValue = $('#' + this.name).offset().top;
+		var heightValue = $('#' + this.name + '_detail').height();
+		
+		$('#' + this.name + '_detail').css('top', topValue + 'px' );
 		$('#' + this.name + '_detail').fadeToggle();
+		
+		$('#footer').css({
+			'top': Math.max( originalFooterTop, topValue + heightValue + 60 )+ 'px'
+		});
 		
 	});
 	
