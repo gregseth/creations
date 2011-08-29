@@ -2,4 +2,5 @@ Options +FollowSymlinks
 RewriteEngine on
 
 RewriteBase /creations
-RewriteRule ([a-z]+)$ /index.php?page=$1 [L,R=301,QSA]
+RewriteRule ^(websites|themes|graphics|widgets).htm$ /index.php?page=$1 
+

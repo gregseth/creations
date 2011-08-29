@@ -72,10 +72,10 @@
 
 	</div><!--#gllery-->
 	<ul id="tabs">
-		<!--<li><a href="/widgets" class="tab <?=$page=='widgets'?'selected':'unselected'?>">Widgets</a></li>-->
-		<li><a href="/themes" class="tab <?=$page=='themes'?'selected':'unselected'?>">Thèmes</a></li>
-		<li><a href="/graphics" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Design</a></li>
-		<li><a href="/websites" class="tab <?=$page=='websites'?'selected':'unselected'?>">Sites</a></li>
+		<!--<li><a href="/widgets.htm" class="tab <?=$page=='widgets'?'selected':'unselected'?>">Widgets</a></li>-->
+		<li><a href="/themes.htm" class="tab <?=$page=='themes'?'selected':'unselected'?>">Thèmes</a></li>
+		<li><a href="/graphics.htm" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Design</a></li>
+		<li><a href="/websites.htm" class="tab <?=$page=='websites'?'selected':'unselected'?>">Sites</a></li>
 	</ul>
 </div><!--#page-->
 
@@ -421,7 +421,7 @@
 			<div id="unity_detail" class="expand">			
 				<h1>Unity</h1>
 				<ul>
-					<li><a href="img/resource/unity.htm"><img src="img/resource/unity.png" alt="Unity" /></a></li>
+					<li><a href="img/resource/unity.htm"><img src="img/resource/unity.jpg" alt="Unity" /></a></li>
 				</ul>			
 			</div>
 			
