@@ -6,6 +6,8 @@
 <title>Greg Seth Creations</title>
 
 <link rel="stylesheet" href="default.css" />
+
+
 <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 
 <link rel="shortcut icon" href="img/favicon.png" />
@@ -40,9 +42,11 @@
 				<li class="visible"><a href="#prepa"><img src="img/list/prepa.png" alt="Prepa Monod" /></a></li>
 				
 			<? elseif ($page == 'graphics'): ?>
+				<li class="visible"><a href="#metro"><img src="img/list/metro.png" alt="Metropolitain" /></a></li>
 				<li class="visible"><a href="#social_buttons"><img src="img/list/social.png" alt="Social buttons" /></a></li>
-				<li class="visible"><a href="#icons"><img src="img/list/icons.png" alt="Icon set" /></a></li>
+				<li class="visible"><a href="#panotango"><img src="img/list/panotango.png" alt="Binding Panorama-Tango" /></a></li>
 				<li class="visible"><a href="#anon"><img src="img/list/anon.png" alt="Anon." /></a></li>
+				<li class="visible"><a href="#icons"><img src="img/list/icons.png" alt="Icon set" /></a></li>
 				<li class="visible"><a href="#jason"><img src="img/list/jason.png" alt="Jason" /></a></li>
 				<li class="visible"><a href="#ismans"><img src="img/list/ismans.png" alt="International ISMANS ltd." /></a></li>
 				<li class="visible"><a href="#trinome"><img src="img/list/trinome.png" alt="Trinôme" /></a></li>
@@ -56,23 +60,14 @@
 				<li class="visible"><a href="#geoloc"><img src="img/list/geoloc.png" alt="Geoloc Systems" /></a></li>
 				<li class="visible"><a href="#ogame"><img src="img/list/ogame.png" alt="OGame" /></a></li>
 				<li class="visible"><a href="#dotclear" ><img src="img/list/kfet.png" alt="DotClear 2" /></a></li>
-
-			<? elseif ($page == 'widgets'):  ?>
-				<!--
-				<li class="visible"><a href="#item21"><img src="img/list/21.jpg" alt="DewVibes" /></a></li>
-				<li class="visible"><a href="#item20"><img src="img/list/20.jpg" alt="Light crude quote" /></a></li>
-				<li class="visible"><a href="#item19"><img src="img/list/19.jpg" alt="RTL2" /></a></li>
-				<li class="visible"><a href="#item18"><img src="img/list/18.jpg" alt="Torrent search" /></a></li>
-				<li class="visible"><a href="#item17"><img src="img/list/17.jpg" alt="MP3 Tunes" /></a></li>
-				-->
+				
 			<? endif; ?>
 
 		</ul>
-		<p id="list-nav"><a href="#" title="&lt;&lt; Previous" id="prev"><img src="img/blank.png" alt="&lt;&lt;&lt; Previous" class="disabled"/>&nbsp;</a>&nbsp;<a href="#" title="Next &gt;&gt;&gt;"id="next"><img src="img/blank.png" alt="Next &gt;&gt;"/>&nbsp;</a></p>
+		<p id="list-nav"><a href="#" title="&lt;&lt; Previous" id="prev"><img src="img/prev.png" alt="&lt;&lt;&lt; Previous" class="disabled"/>&nbsp;</a>&nbsp;<a href="#" title="Next &gt;&gt;&gt;"id="next"><img src="img/next.png" alt="Next &gt;&gt;"/>&nbsp;</a></p>
 
 	</div><!--#gllery-->
 	<ul id="tabs">
-		<!--<li><a href="/widgets.htm" class="tab <?=$page=='widgets'?'selected':'unselected'?>">Widgets</a></li>-->
 		<li><a href="/themes.htm" class="tab <?=$page=='themes'?'selected':'unselected'?>">Thèmes</a></li>
 		<li><a href="/graphics.htm" class="tab <?=$page=='graphics'?'selected':'unselected'?>">Design</a></li>
 		<li><a href="/websites.htm" class="tab <?=$page=='websites'?'selected':'unselected'?>">Sites</a></li>
@@ -234,61 +229,75 @@
 			</div>
 			
 		<? elseif ($page == 'graphics'): ?>
+			<div id="metro" class="desc">
+				<h1><a name="metro" class="anchor closed">Metropolitain</a></h1>
+				<ul>
+					<li><span class="label">Année de création&nbsp;:</span> 2011</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS5</li>
+				</ul>
+				
+				<p>Plan du métro parisien revisité pour le <a href="http://www.checkmymap.fr">concours</a> initié par <a href="http://www.checkmymetro.fr">Check my Metro</a>. Le tracé est quasiment celui du plan propriétaire de la RATP le style est un création originale.<br />Les plans sont sous licence Creative Commons BY, c'est-à-dire que vous avez le droit de les reproduire, les réutiliser et les modifier à condition de me citer comme source. Ils sont téléchageable <a href="/metropolitain.pdf">ici, pour la version sombre</a> et <a href="/metropolitain-light.pdf">là, pour la version claire</a>.</p>
+				<p class="credentials">Note&nbsp;: Si vous êtes sous Mac OS X, visualisez les fichiers PDF avec Adobe Reader. Aperçu n'implémente qu'une partie des fonctionnalités PDF, et le rendu peut-être inexact.</p>
+			</div>
+		
+			<div id="metro_detail" class="expand">
+				<h1>Metropolitain</h1>
+				<ul>
+					<li><a href="img/resource/metro.jpg" class="fancyMe"><img src="img/resource/metro.jpg" alt="Metropolitain" /></a></li>
+					<li><a href="img/resource/metro-light.jpg" class="fancyMe"><img src="img/resource/metro-light.jpg" alt="Metropolitain - Light" /></a></li>
+				</ul>
+			</div>
+		
 			<div id="social_buttons" class="desc">
 				<h1><a name="social_buttons" class="anchor closed">Boutons pour réseaux sociaux</a></h1>				
 				<ul>
 					<li><span class="label">Année de création&nbsp;:</span> 2011</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Photoshop CS5</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Boutons d'interface pour liens vers réseaux sociaux. Le fichier source PSD est <a href="img/resource/social-buttons_by_GregSeth.zip">disponible au téléchargement</a>.</p>
+				<p>Badges aux couleurs des principaux réseaux sociaux. Création originale, bien que  largement inspirée des boutons présents chez <a href="http://www.videocopilot.net">VideoCopilot</a>.<br />Le fichier source PSD est <a href="img/resource/social-buttons_by_GregSeth.zip">disponible au téléchargement</a>.</p>
 			</div>
-			
+
 			<div id="social_buttons_detail" class="expand">			
 				<h1>Boutons pour réseaux sociaux</h1>
 				<ul>
-					<li><a href="img/resource/rss.png" class="fancyMe" rel="buttons"><img src="img/resource/rss.png" alt="RSS feed" /></a></li>
-					<li><a href="img/resource/twitter.png" class="fancyMe" rel="buttons"><img src="img/resource/twitter.png" alt="Twitter" /></a></li>
-					<li><a href="img/resource/facebook.png" class="fancyMe" rel="buttons"><img src="img/resource/facebook.png" alt="Facebook" /></a></li>
-					<li><a href="img/resource/flickr.png" class="fancyMe" rel="buttons"><img src="img/resource/flickr.png" alt="Flickr" /></a></li>
-					<li><a href="img/resource/deviantart.png" class="fancyMe" rel="buttons"><img src="img/resource/deviantart.png" alt="Deviant Art" /></a></li>
+					<li><img src="img/resource/rss.png" alt="RSS feed" /></li>
+					<li><img src="img/resource/twitter.png" alt="Twitter" /></li>
+					<li><img src="img/resource/facebook.png" alt="Facebook" /></li>
+					<li><img src="img/resource/flickr.png" alt="Flickr" /></li>
+					<li><img src="img/resource/deviantart.png" alt="Deviant Art" /></li>
 					
 				</ul>			
 			</div>
-
-			<div id="icons" class="desc">
-				<h1><a name="icons" class="anchor closed">TV series icon set</a></h1>				
+			
+			<div id="panotango" class="desc">
+				<h1><a name="panotango" class="anchor closed">Panorama—Tango</a></h1>				
 				<ul>
-					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Photoshop CS5</li>
+					<li><span class="label">Année de création&nbsp;:</span> 2011</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Icônes manquantes pour le pack <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> by <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/10-TV-series-icons_by_GregSeth.zip">téléchargnment</a>.</p>
+				<p>Jeu d'icônes — programme et installeur — réalisés dans le cadre du projet de couplage du logiciel de supervision <a href="http://www.getpanorama.net">Panorama</a> et le système de contrôle distribué <a href="http://www.tango-controls.org">Tango</a>.<br />Le fond d'écran est juste un extra, basé sur le même thème que celui du porjet Jason.</p>
+				<p class="credentials">La marque Panorama, le logo E<sup>2</sup> et le logo Codra sont la propriété de <a href="http://www.codra.fr">Codra Ingénierie Informatique</a>. Le logo CEA est la propriété du <a href="http://www.cea.fr">Commissariat à l'Énergie Atomique</a>.</p>
 			</div>
 			
-			<div id="icons_detail" class="expand">			
-				<h1>TV series icon set</h1>
+			<div id="panotango_detail" class="expand">
+				<h1>Panorama—Tango</h1>
 				<ul>
-					<li><a href="img/resource/Damages.png" class="fancyMe" rel="icons"><img src="img/resource/Damages.png" alt="Damages" /></a></li>
-					<li><a href="img/resource/Hawaii-Five-O.png" class="fancyMe" rel="icons"><img src="img/resource/Hawaii-Five-O.png" alt="Hawaii Five O" /></a></li>
-					<li><a href="img/resource/Nikita.png" class="fancyMe" rel="icons"><img src="img/resource/Nikita.png" alt="Nikita" /></a></li>
-					<li><a href="img/resource/Lie-to-me.png" class="fancyMe" rel="icons"><img src="img/resource/Lie-to-me.png" alt="Lie to me" /></a></li>
-					<li><a href="img/resource/NCIS.png" class="fancyMe" rel="icons"><img src="img/resource/NCIS.png" alt="NCIS" /></a></li>
-					<li><a href="img/resource/The-Walking-Dead.png" class="fancyMe" rel="icons"><img src="img/resource/The-Walking-Dead.png" alt="The Walking Dead" /></a></li>
-					<li><a href="img/resource/Mad-Men.png" class="fancyMe" rel="icons"><img src="img/resource/Mad-Men.png" alt="Mad Men" /></a></li>
-					<li><a href="img/resource/Little-Britain.png" class="fancyMe" rel="icons"><img src="img/resource/Little-Britain.png" alt="Little Britain" /></a></li>
-					<li><a href="img/resource/Hustle.png" class="fancyMe" rel="icons"><img src="img/resource/Hustle.png" alt="Hustle" /></a></li>
-					<li><a href="img/resource/Twin-Peaks.png" class="fancyMe" rel="icons"><img src="img/resource/Twin-Peaks.png" alt="Twin Peaks" /></a></li>
-				</ul>			
+					<li><img src="img/resource/panotango_logo.png" alt="Icône Panorama—Tango" /></li>
+					<li><img src="img/resource/panotango_logo_install.png" alt="Icône Panorama—Tango Installer" /></li>
+					<li><a href="img/resource/panotango_wallpaper.jpg" class="fancyMe" rel="panotango"><img src="img/resource/panotango_wallpaper.jpg" alt="Wallpaper Panorama—Tango" /></a></li>
+
+				</ul>
 			</div>
 
 			<div id="anon" class="desc">
 				<h1><a name="anon" class="anchor closed">Anonymous</a></h1>				
 				<ul>
 					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
 								
@@ -301,16 +310,44 @@
 					<li><a href="img/resource/anon_2560x1440.jpg" class="fancyMe"><img src="img/resource/anon_2560x1440.jpg" alt="Jason wallpaper" /></a></li>
 				</ul>			
 			</div>
+
+			<div id="icons" class="desc">
+				<h1><a name="icons" class="anchor closed">TV series icon set</a></h1>				
+				<ul>
+					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Photoshop CS5</li>
+
+				</ul>
+								
+				<p>Je suis tombé pas hazard sur le pack d'icônes de séries télé <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> de <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>. Malheureusement les séries que je suis n'étaient pas toutes dans la liste, j'ai donc décidé de combler le vide.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/10-TV-series-icons_by_GregSeth.zip">téléchargnment</a>.</p>
+			</div>
+			
+			<div id="icons_detail" class="expand">			
+				<h1>TV series icon set</h1>
+				<ul>
+					<li><img src="img/resource/Damages.png" alt="Damages" /></li>
+					<li><img src="img/resource/Hawaii-Five-O.png" alt="Hawaii Five O" /></li>
+					<li><img src="img/resource/Nikita.png" alt="Nikita" /></li>
+					<li><img src="img/resource/Lie-to-me.png" alt="Lie to me" /></li>
+					<li><img src="img/resource/NCIS.png" alt="NCIS" /></li>
+					<li><img src="img/resource/The-Walking-Dead.png" alt="The Walking Dead" /></li>
+					<li><img src="img/resource/Mad-Men.png" alt="Mad Men" /></li>
+					<li><img src="img/resource/Little-Britain.png" alt="Little Britain" /></li>
+					<li><img src="img/resource/Hustle.png" alt="Hustle" /></li>
+					<li><img src="img/resource/Twin-Peaks.png" alt="Twin Peaks" /></li>
+				</ul>			
+			</div>
 			
 			<div id="jason" class="desc">
 				<h1><a name="jason" class="anchor closed">Jason project</a></h1>				
 				<ul>
 					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Jeu d'icônes et fond d'écran du projet Jason, réalisé pour le CEA.</p>
+				<p>Icônes des programmes SigVisu, Jade et Onyx réalisées pour le CEA dans le cadre du projet Jason.<br />Le fond d'écrant est un supplément &laquo;pour le plaisir&raquo;.</p>
+				<p class="credentials">La marque Panorama, le logo E<sup>2</sup> et le logo Codra sont la propriété de <a href="http://www.codra.fr">Codra Ingénierie Informatique</a>. Le logo CEA est la propriété du <a href="http://www.cea.fr">Commissariat à l'Énergie Atomique</a>.</p>
 			</div>
 			
 			<div id="jason_detail" class="expand">			
@@ -327,11 +364,11 @@
 				<h1><a name="ismans" class="anchor closed" onclick="expand(16, this.parentNode.offsetTop)">International ISMANS ltd.</a></h1>				
 				<ul>
 					<li><span class="label">Année de création&nbsp;:</span> 2007</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS2</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS2</li>
 
 				</ul>
 								
-				<p>Logo créé dans le cadre d'un projet lors de mon Master en management.</p>
+				<p>Logo créé dans le cadre d'un projet marketing lors de mon Master en management.</p>
 			</div>
 			
 			<div id="ismans_detail" class="expand">			
@@ -345,7 +382,7 @@
 				<h1><a name="trinome" class="anchor closed">Trinôme</a></h1>				
 				<ul>
 					<li><span class="label">Année de création&nbsp;:</span> 2006</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Photoshop CS2</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Photoshop CS2</li>
 
 				</ul>
 								
@@ -364,7 +401,7 @@
 				<h1><a name="tse" class="anchor closed">Logo TSE</a></h1>
 				<ul>
 					<li><span class="label">Created in:</span> 2007</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Adobe Illustrator CS2, Adobe Photoshop CS2</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS2, Adobe Photoshop CS2</li>
 				</ul>
 								
 				<p>Logo créé pour ma voie d'approfondissement à l'ESIGETEL, Technologie des Systèmes Embarqués.</p>
@@ -381,7 +418,7 @@
 				<h1><a name="abalone" class="anchor closed">Abalone</a></h1>
 				<ul>
 					<li><span class="label">Created in:</span> 1998</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
 				<p>Fond d'écran sur le thème du jeu <a href="http://fr.abalonegames.com">abalone</a>. Pour la petite histoire, j'ai gagné une boîte de jeu en le publiant sur le site officiel.</p>
@@ -398,7 +435,7 @@
 				<h1><a name="ring" class="anchor closed">One ring to rule them all</a></h1>				
 				<ul>
 					<li><span class="label">Created in:</span> 1998</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
 				<p>Fond d'écran sur le thème du Seigneur des anneaux.</p>
@@ -442,7 +479,7 @@
 				<h1><a name="geoloc" class="anchor closed">Geoloc Systems</a></h1>
 				<ul>
 					<li><span class="label">Created in:</span> 2006</li>
-					<li><span class="label">Logiciels utilisés&nbsp;:</span> Macromedia Dreamweaver 8, Adobe Photoshop CS2</li>
+					<li><span class="label">Logiciels&nbsp;:</span> Macromedia Dreamweaver 8, Adobe Photoshop CS2</li>
 				</ul>
 								
 				<p>Proposition de maquette réalisée pendant mon stage de seconde année.</p>
@@ -483,102 +520,6 @@
 				</ul>			
 			</div>
 
-		<? elseif ($page == 'widgets'): ?>
-			<!--
-			<div id="itemlist">
-				<h1><a name="item21" class="anchor closed" onclick="expand(21, this.parentNode.offsetTop)">DewVibes</a></h1>
-				<ul class="installfor">
-					<li><a href="http://eco.netvibes.com/subscribe/200881" title="Get widget for Netvibes"><img src="img/netvibes.png" alt="Netvibes"> Netvibes</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200881?platform=igoogle" title="Get widget for iGoogle"><img src="img/igoogle.png" alt="iGoogle"> iGoogle</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200881?platform=dashboard" title="Get widget for Apple Dashboard"><img src="img/dashboard.png" alt="Apple Dashboard"> Apple Dashboard</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200881?platform=opera" title="Get widget for Opera"><img src="img/opera.png" alt="Opera"> Opera</a></li>
-				</ul>
-								
-				<p>MP3 music player based on <a href="http://www.alsacreations.fr/mp3-dewplayer.html">Dewplayer</a> multi. Your just have to enter the address of a m3u playlist to have it played.</p>
-			</div>
-			
-			<div id="expand21" class="expand">			
-				<h1>DewVibes</h1>
-				<ul>
-					<li><a href="img/resource/dewvibes.jpg"><img src="img/resource/dewvibes.jpg" alt="DewVibes" /></a></li>
-				</ul>			
-			</div>
-					
-			<div id="itemlist">
-				<h1><a name="item20" class="anchor closed" onclick="expand(20, this.parentNode.offsetTop)">Light crude quote</a></h1>
-				<ul class="installfor">
-					<li><a href="http://eco.netvibes.com/subscribe/200798" title="Get widget for Netvibes"><img src="img/netvibes.png" alt="Netvibes"> Netvibes</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200798?platform=igoogle" title="Get widget for iGoogle"><img src="img/igoogle.png" alt="iGoogle"> iGoogle</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200798?platform=dashboard" title="Get widget for Apple Dashboard"><img src="img/dashboard.png" alt="Apple Dashboard"> Apple Dashboard</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200798?platform=opera" title="Get widget for Opera"><img src="img/opera.png" alt="Opera"> Opera</a></li>
-				</ul>
-								
-				<p>Display the quotation of oil. All data are from <a href="http://www.boursorama.com">boursorama</a>.</p>
-			</div>
-			
-			<div id="expand20" class="expand">			
-				<h1>Light crude quote</h1>
-				<ul>
-					<li><a href="img/resource/oil.jpg"><img src="img/resource/oil.jpg" alt="Light crude quote" /></a></li>
-				</ul>			
-			</div>
-					
-			<div id="itemlist">
-				<h1><a name="item19" class="anchor closed" onclick="expand(19, this.parentNode.offsetTop)">RTL2</a></h1>
-				<ul class="installfor">
-					<li><a href="http://eco.netvibes.com/subscribe/200797" title="Get widget for Netvibes"><img src="img/netvibes.png" alt="Netvibes"> Netvibes</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200797?platform=igoogle" title="Get widget for iGoogle"><img src="img/igoogle.png" alt="iGoogle"> iGoogle</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200797?platform=dashboard" title="Get widget for Apple Dashboard"><img src="img/dashboard.png" alt="Apple Dashboard"> Apple Dashboard</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200797?platform=opera" title="Get widget for Opera"><img src="img/opera.png" alt="Opera"> Opera</a></li>
-				</ul>
-								
-				<p>Display title, artist, and album of the song currently airing on RTL2. Here's the <a href="http://radio.rtl2.fr/playlist/rtl2_hq.pls">webradio</a></p>
-			</div>
-			
-			<div id="expand19" class="expand">			
-				<h1>RTL2</h1>
-				<ul>
-					<li><a href="img/resource/rtl2.jpg"><img src="img/resource/rtl2.jpg" alt="RTL2" /></a></li>
-				</ul>			
-			</div>
-
-			<div id="itemlist">
-				<h1><a name="item18" class="anchor closed" onclick="expand(18, this.parentNode.offsetTop)">Torrent search</a></h1>
-				
-				<ul class="installfor">
-					<li><a href="http://eco.netvibes.com/subscribe/200796" title="Get widget for Netvibes"><img src="img/netvibes.png" alt="Netvibes"> Netvibes</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200796?platform=igoogle" title="Get widget for iGoogle"><img src="img/igoogle.png" alt="iGoogle"> iGoogle</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200796?platform=dashboard" title="Get widget for Apple Dashboard"><img src="img/dashboard.png" alt="Apple Dashboard"> Apple Dashboard</a></li>
-					<li><a href="http://eco.netvibes.com/subscribe/200796?platform=opera" title="Get widget for Opera"><img src="img/opera.png" alt="Opera"> Opera</a></li>
-				</ul>
-								
-				<p>Widget for torrent files search, using <a href="http://wwwtorrents.to">Torrents.to</a>.</p>
-			</div>
-			
-			<div id="expand18" class="expand">			
-				<h1>Torrent search</h1>
-
-				<ul>
-					<li><a href="img/resource/torrents.jpg"><img src="img/resource/torrents.jpg" alt="Torrent search" /></a></li>
-				</ul>			
-			</div>
-					
-			<div id="itemlist">
-				<h1><a name="item17" class="anchor closed" onclick="expand(17, this.parentNode.offsetTop)">MP3 Tunes</a></h1>
-				<ul class="installfor">
-					<li><a href="http://eco.netvibes.com/subscribe/200799" title="Get widget for Netvibes"><img src="img/netvibes.png" alt="Netvibes"> Netvibes</a></li>
-				</ul>
-								
-				<p>Module allowing you to use you mp3tunes locker in Netvibes.</p>
-			</div>
-			
-			<div id="expand17" class="expand">			
-				<h1>MP3 Tunes</h1>
-				<ul>
-					<li><a href="img/resource/mp3tunes.jpg"><img src="img/resource/mp3tunes.jpg" alt="MP3 Tunes" /></a></li>
-				</ul>
-			</div>
-			-->
 		<? endif; ?>
 		</div><!--#text-->
 	</div><!--#wrapper-->

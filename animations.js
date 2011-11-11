@@ -1,8 +1,9 @@
 
-var step = 362;
+var step = 356;//362;
 
 $(function() {
 
+	//var step = $('#list li').outerWidth();
 	var originalFooterTop = $('#footer').offset().top;
 
 	function atStart() {
