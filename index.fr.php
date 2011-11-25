@@ -243,8 +243,8 @@
 			<div id="metro_detail" class="expand">
 				<h1>Metropolitain</h1>
 				<ul>
-					<li><a href="img/resource/metro.jpg" class="fancyMe"><img src="img/resource/metro.jpg" alt="Metropolitain" /></a></li>
-					<li><a href="img/resource/metro-light.jpg" class="fancyMe"><img src="img/resource/metro-light.jpg" alt="Metropolitain - Light" /></a></li>
+					<li><a href="img/resource/metro.jpg" class="fancyMe" rel="metropolitain"><img src="img/resource/metro.jpg" alt="Metropolitain" /></a></li>
+					<li><a href="img/resource/metro-light.jpg" class="fancyMe" rel="metropolitain"><img src="img/resource/metro-light.jpg" alt="Metropolitain - Light" /></a></li>
 				</ul>
 			</div>
 		
