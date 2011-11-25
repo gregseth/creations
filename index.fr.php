@@ -88,7 +88,7 @@
 					<li><span class="label">Version:</span> 2.0</li>
 				</ul>
 								
-				<p>Galerie créée pour l'artiste Catherine Keller. Pour plus d'inforamtions ou toute question vous pouver la contacter par mail à&nbsp;: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
+				<p>Galerie créée pour l'artiste Catherine Keller. Pour plus d'informations ou toute question vous pouvez la contacter par mail à&nbsp;: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
 
 			</div>
 			
@@ -279,7 +279,7 @@
 
 				</ul>
 								
-				<p>Jeu d'icônes — programme et installeur — réalisés dans le cadre du projet de couplage du logiciel de supervision <a href="http://www.getpanorama.net">Panorama</a> et le système de contrôle distribué <a href="http://www.tango-controls.org">Tango</a>.<br />Le fond d'écran est juste un extra, basé sur le même thème que celui du porjet Jason.</p>
+				<p>Jeu d'icônes — programme et installeur — réalisés dans le cadre du projet de couplage du logiciel de supervision <a href="http://www.getpanorama.net">Panorama</a> et le système de contrôle distribué <a href="http://www.tango-controls.org">Tango</a>.<br />Le fond d'écran est juste un extra, basé sur le même thème que celui du projet Jason.</p>
 				<p class="credentials">La marque Panorama, le logo E<sup>2</sup> et le logo Codra sont la propriété de <a href="http://www.codra.fr">Codra Ingénierie Informatique</a>. Le logo CEA est la propriété du <a href="http://www.cea.fr">Commissariat à l'Énergie Atomique</a>.</p>
 			</div>
 			
@@ -319,7 +319,7 @@
 
 				</ul>
 								
-				<p>Je suis tombé pas hazard sur le pack d'icônes de séries télé <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> de <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>. Malheureusement les séries que je suis n'étaient pas toutes dans la liste, j'ai donc décidé de combler le vide.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/10-TV-series-icons_by_GregSeth.zip">téléchargnment</a>.</p>
+				<p>Je suis tombé par hasard sur le pack d'icônes de séries télé <a href="http://Crazyfool16.deviantart.com/art/Colorflow-Template-182503960">ColorFLow</a> de <a href="http://crazyfool16.deviantart.com/">crazyfool16</a>. Malheureusement les séries que je suis n'étaient pas toutes dans la liste, j'ai donc décidé de combler le vide.<br />Une archive de toutes les icônes au format PNG est disponible au <a href="img/resource/10-TV-series-icons_by_GregSeth.zip">téléchargement</a>.</p>
 			</div>
 			
 			<div id="icons_detail" class="expand">			
@@ -339,19 +339,19 @@
 			</div>
 			
 			<div id="jason" class="desc">
-				<h1><a name="jason" class="anchor closed">Jason project</a></h1>				
+				<h1><a name="jason" class="anchor closed">Jason</a></h1>				
 				<ul>
 					<li><span class="label">Année de création&nbsp;:</span> 2010</li>
 					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS5, Adobe Photoshop CS5</li>
 
 				</ul>
 								
-				<p>Icônes des programmes SigVisu, Jade et Onyx réalisées pour le CEA dans le cadre du projet Jason.<br />Le fond d'écrant est un supplément &laquo;pour le plaisir&raquo;.</p>
+				<p>Icônes des programmes SigVisu, Jade et Onyx réalisées pour le CEA dans le cadre du projet Jason.<br />Le fond d'écran est un supplément &laquo;pour le plaisir&raquo;.</p>
 				<p class="credentials">La marque Panorama, le logo E<sup>2</sup> et le logo Codra sont la propriété de <a href="http://www.codra.fr">Codra Ingénierie Informatique</a>. Le logo CEA est la propriété du <a href="http://www.cea.fr">Commissariat à l'Énergie Atomique</a>.</p>
 			</div>
 			
 			<div id="jason_detail" class="expand">			
-				<h1>Jason project</h1>
+				<h1>Jason</h1>
 				<ul>
 					<li><img src="img/resource/sigvisu_icon.png" class="fancyMe" rel="jason" alt="SigVisu" /></li>
 					<li><img src="img/resource/jade_icon.png" class="fancyMe" rel="jason" alt="Jade" /></li>
