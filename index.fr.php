@@ -5,6 +5,9 @@
 
 <title>Greg Seth Creations</title>
 
+<style type="text/css">
+@import url(http://fonts.googleapis.com/css?family=Michroma);
+</style>
 <link rel="stylesheet" href="default.css" />
 
 

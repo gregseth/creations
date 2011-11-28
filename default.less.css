@@ -1,0 +1,353 @@
+body {
+	margin:0;
+	padding:0;
+	background:url("http://creations.gregseth.net/img/bg_pattern.jpg") repeat #333;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+}
+
+img {
+	border:none;
+}
+
+acronym, abbr {
+	cursor:help;
+	border-bottom:dotted 1px;
+}
+
+strong {
+	color:#F30;	
+	font-weight:normal;
+}
+
+#header {
+	height:72px;
+	margin:0;
+	padding:28px 20px 0px;
+	color:#CCC;
+	font-size:1.5em;
+	font-variant:small-caps;	
+
+	p {
+		margin:0;
+		z-index: 0;
+		text-shadow: 0 0 5px rgba(0,0,0,.3);
+
+		span{
+			margin-right:10px;
+			border-right:solid 1px #BD760B;
+			padding-right:16px;
+			color:#666;
+			font-family:Georgia, "Times New Roman", Times, serif;
+			font-size:2em;
+		}
+	}
+}
+
+#langswitcher {
+	position:absolute;
+	top:4px;
+	left:100%;
+	margin-left:-40px;
+}
+
+#page {
+	position: absolute;
+	z-index: 1;
+	height:366px;
+	width: 100%;
+	margin:0;
+	box-shadow: 0 0 48px #000;
+	border-top: solid 1px #333;
+	padding:50px 0 0;
+	
+	background: #000;
+}
+#description {
+	min-height:300px;
+	margin-top: 420px;
+	padding-top:50px;
+
+	.expand li, .desc ul {
+		border: 3px solid rgba(255, 255, 255, 0.1);
+		box-shadow: 1px 3px 10px #000000 inset;
+	
+		border-radius: 12px;
+		padding:24px;
+		background: rgba(48,48,48,.5);
+	
+	}
+	.expand {
+		li {
+			border-color: rgba(255, 255, 255, 0.2);
+		}
+		img {
+			background: none;
+			vertical-align: sub;
+		}
+	}
+}
+
+
+#footer {
+	position:absolute;
+	width:100%;
+	margin: 0;
+	border-top: solid 1px #333;
+	background: rgba(0,0,0,1);
+	padding:4em;
+	box-shadow: 0 0 48px #000;
+	color:#666;
+	text-align:center;
+	font-size:.8em;
+	
+	img {
+		vertical-align: sub;
+		opacity: .5;
+	}
+	img:hover {
+		opacity: .8;
+	}
+	
+	a {
+		color:#666;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	a:hover {
+		color:#CCC;
+	}
+}
+
+#wrapper {
+	width:976px;
+	margin:auto;
+	padding:0;
+}
+
+#text {
+	clear:both;
+	width:440px;
+	margin-bottom:50px;
+	padding:1px 24px;
+	color:#BDBDBD;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	border:none;
+	border-right:solid 1px #BD760B;
+	box-shadow: -4px 0px 12px rgba(0, 0, 0, .7), 0px 0px 7px rgba(255, 255, 255, 0.2) inset;
+	background: rgba(0, 0, 0, .5);
+	border-radius: 20px 0 0 20px;
+	
+	h1 {
+		color:#EEE;
+		font-family:Michroma, sans-serif;
+		border-bottom:dotted 1px #BD760B;
+		font-size:1.4em;
+		text-shadow: 0 0 10px #FFFFFF;
+			
+		a:after {
+			content: '>>';
+			float: right;
+			color:#FFF;
+		}
+	}
+	p {
+		margin:0 0 4em;
+		text-align:left;
+		font-size:1em;
+		
+		a {
+			border-bottom: dotted 1px;
+		}
+	}
+	a:link, a:active, a:visited {
+		color:#BDBDBD;
+		text-decoration:none;
+	}
+	a[name]:hover {
+		color:inherit;
+	}
+		
+	a:hover {
+		color:#BD760B;
+	}
+	ul {
+		margin: 23px 0; /* 23 = .expand h1:margin-bottom + .expand ul:padding-top */
+		padding:1em !important;
+		list-style:none;
+	}
+}
+.label {
+	font-style:italic;
+}
+	
+#bglogo {
+	position:absolute;
+	top:16px;
+	left:100%;
+	margin-left:-340px;
+	z-index:0;
+}
+#gallery {
+	margin:0;
+	background:url('http://creations.gregseth.net/img/back.png');
+}
+#list {
+	padding-top:0;
+	position:relative;
+	height:256px;
+	overflow:hidden;
+	
+	li {
+		display:inline-block;
+		height:256px;
+		width:356px;
+		margin:0 -2px;
+		padding-left: 100px;
+	}
+}
+#list-nav {
+	width:612px;
+	margin-top:0px;
+	margin-left:160px;
+
+	a {
+		color:#999;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:17px;
+		margin:0;
+		padding:0;
+		
+		outline: none;
+	}
+	a:hover, a:active, a:focus {
+		color:#CCC;
+		text-decoration:none;
+		font-weight:bold;
+	}
+}
+#tabs {
+	margin:33px 0 0;
+	border-bottom:solid 1px #333;
+	padding:0;
+	height:24px;
+	background:url('http://creations.gregseth.net/img/bar.png') top;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+
+	li {
+		float:right;
+		list-style:none;
+		margin:0;
+
+		a:hover {
+			color:#000;
+			background:#ff8e00 url('http://creations.gregseth.net/img/bar.png');/* bottom no-repeat #f8912b*/
+		}
+	}
+}
+
+.tab {
+	display:block;
+	height:19px;
+	width:96px;
+	height:19px;
+	border-left:groove 2px #666;
+	padding-top:5px;
+	color:#FFF;
+	text-align:center;
+	text-decoration:none;
+}
+
+.unselected {
+	background:url('http://creations.gregseth.net/img/bar.png') #000;
+}
+.selected {
+	background:url('http://creations.gregseth.net/img/bar.png') #111;
+}
+
+#prev, #next {
+	padding:0;
+}
+.installfor:before {
+	display:block;
+	content:'Disponible pour :';
+	font-style:italic;
+}
+.installfor {
+	img {
+		margin-bottom:-4px;
+	}
+	li {
+		margin-right:10px;
+		display:inline;
+	}
+}
+
+.hidden {
+	display:none !important;
+}
+.visible {
+	display:inline !important;
+}
+.anchor {
+	display:block;
+	cursor:pointer;	
+}
+.expand {
+	display: none;
+	position:absolute;
+	left:50%;
+	width:440px;
+	margin:-12px 0 3em;
+	border-left:1px solid #BD760B;
+	box-shadow: 4px 0px 12px rgba(0, 0, 0, .7), 0px 0px 7px rgba(255, 255, 255, 0.3) inset;
+	padding:0 24px 24px;
+	background: rgba(255,255,255, .08);
+	border-radius:0 20px 20px 0;
+	z-index: 0;
+
+	a {
+		border:none !important;
+	}
+	li {
+		text-align:center;
+		margin-top:24px;
+	}
+	li:first-child {
+		margin-top:0;
+	}
+	
+	ul {
+		margin:0 !important;
+		padding:0;
+	}
+	img {
+		width:auto;
+		max-width:350px;
+	}
+	h1 {
+		color:#000000 !important;
+		text-align:right;
+	}
+}
+
+.credentials {
+	margin-top: -2em !important;
+	font-size:.8em !important;
+	color:#888;
+
+	a {
+		color:#888 !important;
+	} 
+	a:hover {
+		color:#AAA !important;
+	}
+
+}
+
+
