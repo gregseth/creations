@@ -34,7 +34,8 @@
 	<img id="bglogo" src="img/logo2x.png" alt="Greg Seth Creations" />
 	<div id="gallery">
 		<ul id="list">
-			<? if ($page == 'websites'): ?>						
+			<? if ($page == 'websites'): ?>
+				<li class="visible"><a href="#memos"><img src="img/list/memos.png" alt="Memos" /></a></li>
 				<li class="visible"><a href="#ckeller"><img src="img/list/ckeller.png" alt="C. Keller" /></a></li>
 				<li class="visible"><a href="#gregseth"><img src="img/list/gregseth_v2.png" alt="Greg-Seth" /></a></li>
 				<li class="visible"><a href="#chemicals"><img src="img/list/chemicals.png" alt="Chemicals" /></a></li>
@@ -83,12 +84,30 @@
 	<div id="wrapper">
 		<div id="text">
 		<? if ($page == 'websites'): ?>
+			<div id="memos" class="desc">
+				<h1><a name="memos" class="anchor closed">Memos</a></h1>
+				<ul>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://logrus.ath.cx/manpages">http://logrus.ath.cx/manpages</a></li>
+					<li><span class="label">Anné"e de création&nbsp;:</span> 2011</li>
+					<li><span class="label">Version&nbsp;:</span> 1.2</li>
+				</ul>
+				
+				<p><!--TODO: description--></p>
+			</div>
+			
+			<div id="memos_details" class="expand">
+				<h1>Memos</h1>
+				<ul>
+					<li><!--TODO: screencap of the page  --></li>
+				</ul>
+			</div>
+			
 			<div id="ckeller" class="desc">
 				<h1><a name="ckeller" class="anchor closed">C. Keller</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://encadrement.free.fr">http://encadrement.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://encadrement.free.fr">http://encadrement.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2000</li>
-					<li><span class="label">Version:</span> 2.0</li>
+					<li><span class="label">Version&nbsp;:</span> 2.0</li>
 				</ul>
 								
 				<p>Galerie créée pour l'artiste Catherine Keller. Pour plus d'informations ou toute question vous pouvez la contacter par mail à&nbsp;: <a href="mailto:cath.keller@gmail.com">cath.keller@gmail.com</a>.</p>
@@ -105,9 +124,9 @@
 			<div id="gregseth" class="desc">
 				<h1><a name="gregseth" class="anchor closed">Greg-Seth</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://greg.seth.free.fr">http://greg.seth.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://greg.seth.free.fr">http://greg.seth.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 1999</li>
-					<li><span class="label">Version:</span> 2.5</li>
+					<li><span class="label">Version&nbsp;:</span> 2.5</li>
 				</ul>
 								
 				<p>Mon premier site perso. Actuelllement vous y trouverez une galerie de photos des <a href="http://www.grotte-aguzou.com/">grottes de l'Aguzou</a>, de mon voyage en Islande et quelques autres trucs...</p>
@@ -123,9 +142,9 @@
 			<div id="chemicals" class="desc">
 				<h1><a name="chemicals" class="anchor closed">Chemicals</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://chemicals.free.fr">http://chemicals.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://chemicals.free.fr">http://chemicals.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2003</li>
-					<li><span class="label">Version:</span> 1.0</li>
+					<li><span class="label">Version&nbsp;:</span> 1.0</li>
 				</ul>
 								
 				<p>Un résumé de mes cours de chimie de prépa, dont un classification périodique des éléments interactive.</p>
@@ -141,9 +160,9 @@
 			<div id="donoterase" class="desc">
 				<h1><a name="donoterase" class="anchor closed">DoNotErase</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://not.any.number.free.fr">http://not.any.number.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://not.any.number.free.fr">http://not.any.number.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2003</li>
-					<li><span class="label">Version:</span> 1.0</li>
+					<li><span class="label">Version&nbsp;:</span> 1.0</li>
 				</ul>
 								
 				<p>Projet inachevé (et assez daté) sur les bases de la création d'un site web. HTML, PHP et standards du web sont au rendez-vous.</p>
@@ -152,16 +171,16 @@
 			<div id="donoterase_detail" class="expand">			
 				<h1>DoNotErase</h1>
 				<ul>
-					<li><a href="img/resource/notanynumber.png"><img src="img/resource/notanynumber.png" alt="DoNotErase" /></a></li>
+					<li><a href="img/resource/notanynumber.png" class="fancyMe"><img src="img/resource/notanynumber.png" alt="DoNotErase" /></a></li>
 				</ul>			
 			</div>
 					
 			<div id="fractals" class="desc">
 				<h1><a name="fractals" class="anchor closed" class="fancyMe">Fractals</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://lesfractales.tpe.free.fr">http://lesfractales.tpe.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://lesfractales.tpe.free.fr">http://lesfractales.tpe.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2006</li>
-					<li><span class="label">Version:</span> 1.6</li>
+					<li><span class="label">Version&nbsp;:</span> 1.6</li>
 				</ul>
 								
 				<p>Site sur les <a href="http://en.wikipedia.org/wiki/Fractal">fractales</a>, créé en complément de mon projet de TPE en terminale.</p>
@@ -177,9 +196,9 @@
 			<div id="hmdb" class="desc">
 				<h1><a name="hmdb" class="anchor closed">The Home Movie Database</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <strong>private</strong></li>
+					<li><span class="label">URL&nbsp;:</span> <strong>private</strong></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2002</li>
-					<li><span class="label">Version:</span> 1.0</li>
+					<li><span class="label">Version&nbsp;:</span> 1.0</li>
 				</ul>
 								
 				<p>Site de gestion de ma vidéothèque, fermé au public, une <a href="img/sites/hmdb_big.jpg">capture</a> d'écran est disponible.</p>
@@ -196,9 +215,9 @@
 			<div id="winmine" class="desc">
 				<h1><a name="winmine" class="anchor closed">Winmine</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://winmine.free.fr">http://winmine.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://winmine.free.fr">http://winmine.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2004</li>
-					<li><span class="label">Version:</span> 1.5</li>
+					<li><span class="label">Version&nbsp;:</span> 1.5</li>
 				</ul>
 								
 				<p>Un jours que j'avais du temps devant moi j'ai monté ce petit site consacré au démineur. Au programme&nbsp;: astuces et techniques de jeu.</p>
@@ -216,9 +235,9 @@
 			<div id="prepa" class="desc">
 				<h1><a name="prepa" class="anchor closed">Prepa Monod</a></h1>
 				<ul>
-					<li><span class="label">URL:</span> <a href="http://prepa.monod.free.fr">http://prepa.monod.free.fr</a></li>
+					<li><span class="label">URL&nbsp;:</span> <a href="http://prepa.monod.free.fr">http://prepa.monod.free.fr</a></li>
 					<li><span class="label">Année de création&nbsp;:</span> 2003</li>
-					<li><span class="label">Version:</span> 1.0</li>
+					<li><span class="label">Version&nbsp;:</span> 1.0</li>
 				</ul>
 			
 				<p>Site de la promo 2003 de la classe de PCSI du lycée Gustave Monod d'Enghien-les-Bains. <br />Je le garde principalement pour <a href="http://prepa.monod.free.fr/?page=photos&amp;photo=classe">les photos</a> prises pendant l'année et le concours des petites Mines au parc botanique de Vincennes.</p>
