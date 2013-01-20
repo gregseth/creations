@@ -35,7 +35,7 @@
 	<div id="gallery">
 		<ul id="list">
 			<? if ($page == 'websites'): ?>
-				<li class="visible"><a href="#memos"><img src="img/list/memos.png" alt="Memos" /></a></li>
+				<!--<li class="visible"><a href="#memos"><img src="img/list/memos.png" alt="Memos" /></a></li>-->
 				<li class="visible"><a href="#ckeller"><img src="img/list/ckeller.png" alt="C. Keller" /></a></li>
 				<li class="visible"><a href="#gregseth"><img src="img/list/gregseth_v2.png" alt="Greg-Seth" /></a></li>
 				<li class="visible"><a href="#chemicals"><img src="img/list/chemicals.png" alt="Chemicals" /></a></li>
@@ -84,6 +84,7 @@
 	<div id="wrapper">
 		<div id="text">
 		<? if ($page == 'websites'): ?>
+			<!--
 			<div id="memos" class="desc">
 				<h1><a name="memos" class="anchor closed">Memos</a></h1>
 				<ul>
@@ -92,15 +93,16 @@
 					<li><span class="label">Version&nbsp;:</span> 1.2</li>
 				</ul>
 				
-				<p><!--TODO: description--></p>
+				<p><!- -TODO: description- -></p>
 			</div>
 			
 			<div id="memos_details" class="expand">
 				<h1>Memos</h1>
 				<ul>
-					<li><!--TODO: screencap of the page  --></li>
+					<li><!- -TODO: screencap of the page  - -></li>
 				</ul>
 			</div>
+			-->
 			
 			<div id="ckeller" class="desc">
 				<h1><a name="ckeller" class="anchor closed">C. Keller</a></h1>
@@ -443,7 +445,7 @@
 					<li><span class="label">Logiciels&nbsp;:</span> Corel Bryce 4, Adobe Photoshop 7</li>
 				</ul>
 								
-				<p>Fond d'écran sur le thème du jeu <a href="http://fr.abalonegames.com">abalone</a>. Pour la petite histoire, j'ai gagné une boîte de jeu en le publiant sur le site officiel.</p>
+				<p>Fond d'écran sur le thème du jeu abalone. Pour la petite histoire, j'ai gagné une boîte de jeu en le publiant sur le site officiel.</p>
 			</div>
 			
 			<div id="abalone_detail" class="expand">			
