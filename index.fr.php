@@ -131,7 +131,7 @@
 					<li><span class="label">Version&nbsp;:</span> 2.5</li>
 				</ul>
 								
-				<p>Mon premier site perso. Actuelllement vous y trouverez une galerie de photos des <a href="http://www.grotte-aguzou.com/">grottes de l'Aguzou</a>, de mon voyage en Islande et quelques autres trucs...</p>
+				<p>Mon premier site perso. Actuellement vous y trouverez une galerie de photos des <a href="http://www.grotte-aguzou.com/">grottes de l'Aguzou</a>, de mon voyage en Islande et quelques autres trucs...</p>
 			</div>
 			
 			<div id="gregseth_detail" class="expand">			
@@ -260,7 +260,7 @@
 					<li><span class="label">Logiciels&nbsp;:</span> Adobe Illustrator CS5</li>
 				</ul>
 				
-				<p>Plan du métro parisien revisité pour le <a href="http://www.checkmymap.fr">concours</a> initié par <a href="http://www.checkmymetro.fr">Check my Metro</a>. Le tracé est quasiment celui du plan propriétaire de la RATP le style est un création originale.<br />Les plans sont sous licence Creative Commons BY, c'est-à-dire que vous avez le droit de les reproduire, les réutiliser et les modifier à condition de me citer comme source. Ils sont téléchageable <a href="/metropolitain.pdf">ici, pour la version sombre</a> et <a href="/metropolitain-light.pdf">là, pour la version claire</a>.</p>
+				<p>Plan du métro parisien revisité pour le <a href="http://www.checkmymap.fr">concours</a> initié par <a href="http://www.checkmymetro.fr">Check my Metro</a>. Le tracé est quasiment celui du plan propriétaire de la RATP le style est un création originale.<br />Les plans sont sous licence Creative Commons BY, c'est-à-dire que vous avez le droit de les reproduire, les réutiliser et les modifier à condition de me citer comme source. Ils sont téléchargeable <a href="/metropolitain.pdf">ici, pour la version sombre</a> et <a href="/metropolitain-light.pdf">là, pour la version claire</a>.</p>
 				<p class="credentials">Note&nbsp;: Si vous êtes sous Mac OS X, visualisez les fichiers PDF avec Adobe Reader. Aperçu n'implémente qu'une partie des fonctionnalités PDF, et le rendu peut-être inexact.</p>
 			</div>
 		
