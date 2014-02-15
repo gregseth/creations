@@ -1,6 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine on
-
-RewriteBase /creations
-RewriteRule ^(websites|themes|graphics|widgets).htm$ /index.php?page=$1 
-
